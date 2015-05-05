@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Images responsive
+	URL : http://getbootstrap.com/css/#images
+	Notes : 
+		- Cas des SVG et IE8 à IE10
+		Les images SVG images ayant pour class .img-responsive sont disproportionnées. 
+		Pour corriger ça il faut leur ajouter "width: 100% \9;" où c'est nécessaire
+	-->
+<img src="${1:#}" ${2:class="img-responsive"} alt="${3:Image}">
+]]></content>
+	<tabTrigger>bs3-image</tabTrigger>
+<description>Bootstrap 3 - Images responsive</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Formulaire - input checkbox
+	http://getbootstrap.com/css/#forms
+	-->
+<div class="checkbox">
+	<label>
+		<input type="checkbox" value="${1}">
+		${2:Checkbox}
+	</label>
+</div>
+]]></content>
+	<tabTrigger>bs3-input:checkbox</tabTrigger>
+<description>Bootstrap 3 - Formulaire - input checkbox</description>
+</snippet>

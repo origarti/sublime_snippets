@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<div class="table-responsive">
+	<table class="table${1: table-hover}">
+		<thead>
+			<tr>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+]]></content>
+	<tabTrigger>bs3-table:responsive</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - majeur
+	URL : http://getbootstrap.com/css/#buttons
+	-->
+<${1:button} ${2:type="button"} class="btn btn-primary">${3:button}</${1:button}>
+]]></content>
+	<tabTrigger>bs3-button:primary</tabTrigger>
+<description>Bootstrap 3 - Boutons - majeur</description>
+</snippet>

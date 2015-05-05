@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Formulaire - Label sur 2 colonnes
+	http://getbootstrap.com/css/#forms
+	-->
+<label for="${1:input-id}" ${2:class="col-sm-2"}>${3}</label>
+]]></content>
+	<tabTrigger>bs3-form:label</tabTrigger>
+<description>Bootstrap 3 - Formulaire - Label sur 2 colonnes</description>
+</snippet>

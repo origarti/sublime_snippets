@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<a class="navbar-brand" href="${1:/}">${2:Title}</a>
+]]></content>
+	<tabTrigger>bs3-navbar:brand</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

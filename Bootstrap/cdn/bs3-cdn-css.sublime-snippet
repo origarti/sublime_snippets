@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Bootstrap 3 - Charger Dernier Bootstrap (CSS minifié)
+	
+	-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/${1:version du bootstrap}/css/bootstrap.min.css">
+]]></content>
+	<tabTrigger>bs3-cdn:css</tabTrigger>
+<description>Bootstrap 3 - Charger Dernier Bootstrap (CSS minifié)</description>
+</snippet>

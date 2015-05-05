@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Bootstrap 3 - Charger Dernier Bootstrap (JS minifié)
+	-->
+<!-- Latest compiled and minified JS -->
+${1:<script src="//ajax.googleapis.com/ajax/libs/jquery/jquery.js"></script>}
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+]]></content>
+	<tabTrigger>bs3-cdn:js</tabTrigger>
+<description>Bootstrap 3 - Charger Dernier Bootstrap (JS minifié)</description>
+</snippet>

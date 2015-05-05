@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Formulaire - Inline
+	http://getbootstrap.com/css/#forms
+	Notes : 
+		- Ne s'applique qu'à partir d'un viewport de 768px
+		- Ne pas oublier d'ajouter soit des labels, placeholder, aria-label, aria-labelledby ou title qui pourront être visibles pour sr (Liseuses d'écran)
+	-->
+<form action="${1}" method="${2:POST}" class="form-inline" role="form">
+
+	${3:<div class="form-group">
+		<label class="sr-only" for="">label</label>
+		<input type="email" class="form-control" id="" placeholder="Input field">
+	</div>}
+
+	${0}
+
+	<button type="submit" class="btn btn-primary">${4:Submit}</button>
+</form>
+]]></content>
+	<tabTrigger>bs3-form:inline</tabTrigger>
+<description>Bootstrap 3 - Formulaire - Inline</description>
+</snippet>

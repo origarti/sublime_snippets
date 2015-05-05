@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<form class="navbar-form pull-${1:right}">
+	<input type="text" style="width: 200px;">
+	<button type="submit" class="btn btn-${2:default}">${3:Submit}</button>
+</form>
+]]></content>
+	<tabTrigger>bs3-navbar:form</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

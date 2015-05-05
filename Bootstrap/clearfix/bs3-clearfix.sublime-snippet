@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Clearfix
+	URL : http://getbootstrap.com/css/#less-mixins-clearfix
+	Exemple : 
+	<div class="row">
+	  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+	  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+	  <!--  Ajouter une div à la classe .clearfix, en précisant sur quel device le faire apparaître -->
+	  <div class="clearfix visible-xs-block"></div>
+
+	  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+	  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+	</div>
+
+	-->
+<!-- -->
+ <div class="clearfix"></div>
+
+]]></content>
+	<tabTrigger>bs3-clearfix</tabTrigger>
+<description>Bootstrap 3 - Clearfix</description>
+</snippet>

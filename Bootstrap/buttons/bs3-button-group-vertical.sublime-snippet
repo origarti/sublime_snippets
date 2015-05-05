@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Groupe vertical
+	URL : http://getbootstrap.com/css/#buttons
+	-->
+<div class="btn-group-vertical">
+	<${1:button} ${2:type="button"} class="btn btn-default">Top</${1:button}>
+	<${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}>
+	<${1:button} ${2:type="button"} class="btn btn-default">Bottom</${1:button}>
+</div>
+]]></content>
+	<tabTrigger>bs3-group:vertical</tabTrigger>
+<description>Bootstrap 3 - Boutons - Groupe vertical</description>
+</snippet>

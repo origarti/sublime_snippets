@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - Formulaire - element
+	http://getbootstrap.com/css/#forms
+	-->
+<input type="reset" value="${1:Reset}" class="btn btn-default">
+]]></content>
+	<tabTrigger>bs3-input:reset</tabTrigger>
+<description>Bootstrap 3 - Formulaire - element</description>
+</snippet>

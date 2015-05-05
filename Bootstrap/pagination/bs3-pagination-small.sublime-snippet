@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<ul class="pagination pagination-small">
+	<li><a href="#">&laquo;</a></li>
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#">&raquo;</a></li>
+</ul>
+]]></content>
+	<tabTrigger>bs3-pagination:small</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

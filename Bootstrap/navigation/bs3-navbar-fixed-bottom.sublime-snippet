@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	<a class="navbar-brand" href="${1:#}">${2:Title}</a>
+	<ul class="nav navbar-nav">
+		<li class="active">
+			<a href="#">${3:Home}</a>
+		</li>
+		<li>
+			<a href="#">${4:Link}</a>
+		</li>
+	</ul>
+</nav>
+]]></content>
+	<tabTrigger>bs3-navbar:fixed-bottom</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

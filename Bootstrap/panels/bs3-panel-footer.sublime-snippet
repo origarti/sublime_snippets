@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<div class="panel panel-default">
+	  <div class="panel-body">
+			${1:Panel content}
+	  </div>
+	  <div class="panel-footer">
+			${2:Panel footer}
+		</div>
+</div>
+]]></content>
+	<tabTrigger>bs3-panel:footer</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>

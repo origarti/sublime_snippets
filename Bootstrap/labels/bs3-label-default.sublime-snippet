@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<!-- Documentation : Bootstrap 3 - element
+	URL : http://getbootstrap.com/${1:}
+	-->
+<span class="label label-default">${1:Label}</span>
+]]></content>
+	<tabTrigger>bs3-label:default</tabTrigger>
+<description>Bootstrap 3 - element</description>
+</snippet>
