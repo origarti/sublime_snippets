@@ -1,5 +1,7 @@
 # Sublime Text 2
 
+
+----
 ## Frameworks CSS 
 
 ### Bootstrap 3.3 (en cours)
@@ -18,7 +20,7 @@
 - [ ] Documenter Joyride (JS)                       - **En cours**
 - [ ] Documenter Formulaires (CSS)                  - **En cours**
 
-
+----
 ## CMS
 
 ### Wordpress
