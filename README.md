@@ -4,8 +4,8 @@
 
 ### Bootstrap 3.3 (en cours)
 ####Todo : 
-- [ ] Pusher snippets réalisés le 2015-05-25
-- [ ] Finir composants non-documentés jusqu'à présent
+- [ ] Pusher snippets réalisés le 2015-05-25				- **A faire**
+- [ ] Finir composants non-documentés jusqu'à présent		- **A faire**
 
 ### Foundation 5.5 (en cours)
 
