@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Clearing - Afficher une Lightbox
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/clearing.html}
+
+	1 - Usage 
+	.clearing-thumbs = Optionnel, à définir sur le parent - Génère une gallerie de miniature
+	[data-clearing]  = à définir sur le parent
+	[data-caption]   = Légende de l'image, à définir sur l'image
+-->}}
+<ul class="clearing-thumbs" data-clearing>
+  <li><a href="${4:path/to/your/img}"><img data-caption="Légende de mon image" src="${5:path/to/your/img-th}"></a></li>
+  <li><a href="${6:path/to/your/img}"><img data-caption="Légende de mon image" src="${7:path/to/your/img-th}"></a></li>
+  <li><a href="${8:path/to/your/img}"><img data-caption="Légende de mon image" src="${9:path/to/your/img-th}"></a></li>
+</ul>
+]]></content>
+  
+  <tabTrigger>foundation-clearing</tabTrigger>
+  <description>Foundation 5 - Clearing / Lightbox</description>
+</snippet>

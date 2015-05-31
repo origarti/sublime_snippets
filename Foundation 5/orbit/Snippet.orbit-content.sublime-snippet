@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+{4:${1:<!--
+  # Orbit - Un carousel (Deprecated)
+  # Documentation - ${2:http://foundation.zurb.com/docs/components/orbit.html}
+  # Pourquoi ce composant est-il déprécié ? - ${3:http://foundation.zurb.com/forum/posts/14504-moving-on-from-developing-orbit}
+
+  1 - Usage
+  Idéalement dans une liste <ul>.
+  [data-orbit]        =   (<parent>, <ul>) - requis
+  [data-orbit-slide]  =   (<enfant>, <li>) - requis - Doit contenir un identifiant. Exemple : data-orbit-slide="slide-1"
+  .orbit-caption      =   (<item>,   <li>) - requis   =  Description de la slide
+
+-->}}
+<ul class="${5:orbit-content}" data-orbit>
+  <li data-orbit-slide="slide-1">
+    <div>
+      <h2>Titre 1</h2>
+      <h3>Sous-titre</h3>
+    </div>
+  </li>
+  <li data-orbit-slide="slide-2">
+    <div>
+      <h2>Titre 2</h2>
+      <h3>Sous-titre</h3>
+    </div>
+  </li>
+  <li data-orbit-slide="slide-3">
+    <div>
+      <h2>Titre 3</h2>
+      <h3>Sous-titre</h3>
+    </div>
+  </li>
+</ul><!-- /. ${5:orbit-content} -->
+]]></content>
+  
+  <tabTrigger>foundation-orbit-content</tabTrigger>
+  <description>Foundation 5 -  - Orbit / Carousel (Deprecated) / Slider - Contenu</description>
+</snippet>

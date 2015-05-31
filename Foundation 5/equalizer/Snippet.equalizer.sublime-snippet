@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+${3:${1:<!--
+	# Equalizer (JS) - Créer des blocs de mêmes hauteurs
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/equalizer.html}
+	
+	1 - Usage
+	Attribuer un [data-equalizer] à un élément parent puis un [data-equalizer-watch] à ses enfants
+	[data-equalizer] peut contenir une valeur (exemple : data-equalizer="valeur"). 
+	Ce qui permet de faire des blocs d'hauteurs égales dans des blocs de hauteurs égales. 
+	Dans ce cas là, les [data-equalizer-watch] de même niveau devront contenir la même valeur. 
+
+	2 - Responsive
+	Il est possible d'appliquer un "equalizer" à une série de blocks en fonction d'un breakpoint particulier du viewport 
+	exemple : [data-equalizer-mq="large-up"] à définir sur le parent [data-equalizer]
+	
+-->}}
+<div class="row" data-equalizer${4:="valeur"}>
+	<div class="large-6 columns panel" data-equalizer-watch${4:="valeur"}>
+		${5:...}
+	</div>
+	<div class="large-6 columns panel" data-equalizer-watch${4:="valeur"}>
+		${6:...}
+	</div>
+</div>
+<!-- /.row [equalizer] -->
+]]></content>
+	
+	<tabTrigger>foundation-equalizer</tabTrigger>
+	<description>Foundation 5 - Equalizer (JS)</description>
+	
+</snippet>

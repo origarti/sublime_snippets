@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Progress Bar - Barre de progression
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/progress_bars.html}
+-->}}
+<div class="progress${4: small-${5:x}}${6: medium-${7:x}}${8: large-${9:x}}${10: round}${11: radius}">
+      <span class="meter" style="width: ${12:100}%"></span>
+</div>
+]]></content>
+  
+  <tabTrigger>foundation-progress-bar</tabTrigger>
+  <description>Foundation 5 - Progress Bar</description>
+</snippet>

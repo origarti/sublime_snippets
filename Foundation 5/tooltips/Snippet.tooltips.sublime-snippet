@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Tooltips - Infobulle contextuelle
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/tooltips.html}
+
+      1 - Usage 
+      Alignement        =     .tip-top  |  .tip-bottom | .tip-left | .tip-right
+      Styles            =     [.tiny | .small | .medium | .large ]  -  [.secondary | .alert | .success]  -  [.radius | .round]
+      [data-options]    =     - show_on: tiny | small | medium | large
+                              - disable_for_touch: true | false
+      2 - Notes
+      Tooltips appliquées à une balise <a> seront inactives pour ne pas interférer avec le contenu naturel du lien
+-->}}  	
+<span data-tooltip aria-haspopup="true" role="tooltip" class="has-tip tip-top radius" title="${4:Contenu de l'infobulle}"  ${5:data-options="show_on:large"} ${6:disable_for_touch: false} >${7:Cliquer ici pour ouvrir l'infobulle}</span>
+
+]]></content>
+  
+  <tabTrigger>foundation-tooltips</tabTrigger>
+  <description>Foundation 5 - Tooltips / Infobulle contextuelle</description>
+</snippet>

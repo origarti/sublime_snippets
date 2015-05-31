@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Labels (inline) - Description d'un champ de formulaire, positionné sur la même ligne que ce champ
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/forms.html#inline-labels}
+-->}}
+<div class="row">
+    <div class="small-${4:3} columns">
+        <label for="${6:ID_champ_input}" class="${7:right}">${8:Mon Label}</label>
+    </div><!-- /.small-${4:3} columns -->
+    <div class="small-${5:9} columns">
+        <input type="${9:text}" id="${6:ID_champ_input}" placeholder="${8:Inline Text Input}">
+    </div><!-- /.small-${5:9} columns -->
+</div><!-- /.row -->
+
+
+]]></content>
+  
+  <tabTrigger>foundation-label:inline</tabTrigger>
+  <description>Foundation 5 - Form - Label - Inline</description>
+</snippet>
+

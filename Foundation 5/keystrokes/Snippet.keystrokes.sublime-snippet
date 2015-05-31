@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<kbd>${1:Alt}</kbd>+<kbd>${2:P}</kbd>
+]]></content>
+  
+  <tabTrigger>foundation-keystrokes</tabTrigger>
+  <description>Foundation 5 - Keystrokes (Raccourci clavier)</description>
+</snippet>

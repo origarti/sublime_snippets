@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Block Grid - Disposer des éléments d'une liste en se basant sur une grille responsive
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/block_grid.html}
+
+      1 - Usage
+      exemple : 
+      ul.small-block-grid-2         =      Disposera 2 items par ligne (mobile ++)
+      ul.medium-block-grid-3        =      Disposera 3 items par ligne (Tablet ++)
+      ul.large-block-grid-4         =      Disposera 4 items par ligne (Desktop++)
+-->}}  	
+<ul class="small-block-grid-${4:2} ${6:medium-block-grid-${5:3}} ${8:large-block-grid-${7:4}}">
+  <li>${9:<!-- Votre contenu ici -->}</li>
+  <li>${10:<!-- Votre contenu ici -->}</li>
+  <li>${11:<!-- Votre contenu ici -->}</li>
+  <li>${12:<!-- Votre contenu ici -->}</li>
+  <li>${13:<!-- Votre contenu ici -->}</li>
+  <li>${14:<!-- Votre contenu ici -->}</li>
+</ul><!-- small-block-grid-${4:2} ${6:medium-block-grid-${5:3}} ${8:large-block-grid-${7:4}} -->
+]]></content>
+  
+  <tabTrigger>foundation-block-grid</tabTrigger>
+  <description>Foundation 5 - Grid - Block Grid</description>
+</snippet>

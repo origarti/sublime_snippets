@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Dropdown (JS) - Menu contextuel
+	# Documentation : ${2:lien}
+
+      1 - Usage
+      [data-options]    =    is_hover:true; 
+                        =    hover_timeout:5000;
+                        =    align:left | right | top | bottom;
+
+-->
+<!-- Size Classes: [tiny small medium large] -->
+<!-- Color Classes: [secondary alert success] -->
+<!-- Radius Classes: [radius round] -->
+}}
+
+
+<a href="#" data-dropdown="contextuel" class="button dropdown" data-options="align:left;">Dropdown Button</a><br>
+
+<ul id="contextuel" data-dropdown-content class="f-dropdown">
+      <li><a href="#">Action 1</a></li>
+      <li><a href="#">Action 2</a></li>
+      <li><a href="#">Action 3</a></li>
+</ul><!-- /#contextuel .f-dropdown-->
+]]></content>
+  
+  <tabTrigger>foundation-dropdown-button</tabTrigger>
+  <description>Foundation 5 - Dropdown</description>
+</snippet>

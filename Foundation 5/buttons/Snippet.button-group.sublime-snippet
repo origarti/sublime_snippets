@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<!-- Button Group Optional Classes: [radius round] -->
+<ul class="button-group ${10:radius}${11: round}">
+  <li><a href="#" class="button${1: tiny}${2: small}${3: large}${4: expand}${5: success}${6: secondary}${7: info}${8: warning}${9: alert}">${11:Bouton 1}</a></li>
+  <li><a href="#" class="button${1: tiny}${2: small}${3: large}${4: expand}${5: success}${6: secondary}${7: info}${8: warning}${9: alert}">${12:Bouton 2}</a></li>
+  <li><a href="#" class="button${1: tiny}${2: small}${3: large}${4: expand}${5: success}${6: secondary}${7: info}${8: warning}${9: alert}">${13:Bouton 3}</a></li>
+</ul><!-- /.button-group ${10:radius}${11: round}-->
+]]></content>
+  
+  <tabTrigger>foundation-button-group</tabTrigger>
+  <description>Foundation 5 - Button / Bouton - Button Group</description>
+</snippet>

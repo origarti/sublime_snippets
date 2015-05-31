@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Accordion - 
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/accordion.html}
+
+  1 - Usage
+  [data-accordion]           =     requis - parent > - (ul, dl, dt)
+  .accordeon                 =     requis - parent > - (ul, dl, dt)
+  .accordeon-navigation      =     requis - enfant > - (li, dd)
+  .content (.active)         =     requis - enfant > div 
+  
+
+-->}}
+<ul class="accordion" data-accordion>
+    <li class="accordion-navigation">
+        <a href="#${4:accordeon1}">${5:Accordion 1}</a>
+
+        <div id="${4:accordeon1}" class="content ${6:active}">
+            ${7:Panel 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}
+        </div><!-- /#${4:accordeon1} .content-->
+    </li><!-- /.accordion-navigation -->
+
+    <li class="accordion-navigation">
+        <a href="#${8:accordeon2}">${9:Accordion 2}</a>
+
+        <div id="${8:accordeon2}" class="content ${10:active}">
+            ${11:Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}
+        </div><!-- /#${8:accordeon2} .content-->
+    </li><!-- /.accordion-navigation -->
+    
+</ul><!-- /.accordion -->
+]]></content>
+  
+  <tabTrigger>foundation-accordion</tabTrigger>
+  <description>Foundation 5 - Accordion / Accordeon / Collapse</description>
+</snippet>

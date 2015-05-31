@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Panels - Un bloc pour mettre légèrement en valeur un contenu
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/panels.html}
+      
+      1 - Usage
+      .panel      =     Bloc légèrement grisé
+      .callout    =     Bloc légèrement bleuté
+-->}}
+
+<div class="panel ${4:callout} ${5:radius}">
+  <${6:h5}>${7:Titre de ce block <code>.panel</code>.}</${6:h5}>
+  ${8:<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>}
+</div>
+]]></content>
+  
+  <tabTrigger>foundation-panel</tabTrigger>
+  <description>Foundation 5 - Panels</description>
+</snippet>

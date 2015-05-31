@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Switch - Interrupteur ON / OFF
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/switch.html}
+
+  1 - Usage
+
+      [data-slider]       =     requis - parent
+      range-slider        =     requis - parent (+ .radius | .round  | .disabled )
+      .vertical-range     =     optionnel - parent
+      
+      data-options        =     "display_selector: #sliderOutput;" : permet de définir à quel endroit du DOM la valeur numérique exact s'affiche.
+                                "step: 20;" : Pas d'incrémentation / décrémentation de la valeur.
+                                "start: 1;" : Point de départ  de l'intervale .
+                                "end: 10;"  : Point final de l'intervale.
+
+  2 - Note
+      
+      La valeur sera attribuée à l'input de type "hidden" le plus proche.
+
+-->}}
+<fieldset class="switch${4: tiny}${5: small}${6: large}${7: radius}${8: round}" tabindex="0">
+  <input id="${9:exemple_Checkbox_Switch}" type="checkbox">
+  <label for="${9:exemple_Checkbox_Switch}"></label>
+</fieldset><!-- /.switch ${4: tiny}${5: small}${6: large}${7: radius}${8: round}-->
+
+
+]]></content>
+  
+  <tabTrigger>foundation-switch</tabTrigger>
+  <description>Foundation 5 - Form - Switch</description>
+</snippet>
+

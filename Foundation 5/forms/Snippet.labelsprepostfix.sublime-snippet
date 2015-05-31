@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Pre/Postfix Labels & Actions - Rajoute un élément en début (prefix) ou fin (postfix) de champ de formulaire
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/forms.html#pre-postfix-labels-amp-actions}
+
+      1 - Usage
+
+      L'idée est de créer une combinaison (prefix +) Label + Input (+ postfix) en plaçant l'ensemble dans un .row.collapse
+      .row.collapse peut être complété par : prefix-radius/round postfix-radius/round 
+-->}}
+<div class="row collapse ${4:prefix}-${5:radius}">
+    <div class="small-3 large-2 columns">
+        <span class="${4:prefix}">${6:http://}</span>
+    </div>
+    <div class="small-9 large-10 columns">
+        <input type="${7:text}" placeholder="${8:Entrer une URL valide}">
+    </div>
+</div><!-- /.row.collapse -->
+
+]]></content>
+  
+  <tabTrigger>foundation-pre-postfix-label</tabTrigger>
+  <description>Foundation 5 - Form - Label - Pre fix / Post fix</description>
+</snippet>
+

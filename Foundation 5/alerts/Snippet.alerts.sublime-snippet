@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Alerts - Un boîte d'information refermable
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/alert_boxes.html}
+-->}}
+<div data-alert class="alert-box${5: success}${6: warning}${7: info}${8: alert}${9: secondary}${10: round}${11: radius}" tabindex="0" aria-live="assertive" role="dialogalert">
+  ${4:<!-- Contenu de l'alerte -->}
+  <a href="#" class="close">&times;</a>
+</div><!-- /.alert-box${5: success}${6: warning}${7: info}${8: alert}${9: secondary}${10: round}${11: radius} -->
+]]></content>
+  
+  <tabTrigger>foundation-alerts</tabTrigger>
+  <description>Foundation 5 - Alerts (JS)</description>
+</snippet>

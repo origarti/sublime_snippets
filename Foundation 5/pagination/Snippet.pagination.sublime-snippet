@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Pagination - Paginer du contenu
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/pagination.html}
+
+  1 - Usage
+  .pagination                  =     requis - <ul> parent.
+  .pagination-centered         =     optionnel - <ul> parent - Centrer la pagination
+  .current                     =     optionnel - <li> - élément de pagination en surbrillance
+  .unavailable                 =     optionnel - <li> - élément de pagination inactif. Doit idéalement être accompagné d'un [aria-disabled="true"]. &hellip; = "..."
+  .arrow                       =     optionnel - <li> - Flèche de pagination  (&laquo; = Précédent | &raquo; = Suivant)
+
+-->}}
+<ul class="pagination" role="menubar" aria-label="${4:Pagination Label}">
+  <li class="arrow unavailable"><a href="#">&laquo; ${5:Précédent}</a></li><!-- /.arrow (précédent) -->
+  <li class="current"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  ${7:<li class="unavailable" aria-disabled="true"><a href="#">&hellip;</a></li>}
+  <li><a href="#">12</a></li>
+  <li><a href="#">13</a></li>
+  <li class="arrow"><a href="#">${6:Suivant} &raquo;</a></li><!-- /.arrow (suivant) -->
+</ul>
+]]></content>
+  
+  <tabTrigger>foundation-pagination</tabTrigger>
+  <description>Foundation 5 - Pagination</description>
+</snippet>

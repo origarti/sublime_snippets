@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Pricing Table - Faire un tableau de prix et de fonctionnalités
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/pricing_tables.html}
+  1 - Usage
+
+  ul.pricing-table    =      requis
+  li.title            =      Un style particulier pour le titre 
+  li.price            =      Un style particulier pour le prix
+  li.description      =      Un style particulier pour la description
+  li.bullet-item      =      Un style par défaut pour un item
+  li.cta-button       =      Un call-to-action 
+
+-->}}
+<ul class="pricing-table">
+  <li class="title">${4:Mon Produit}</li>
+  <li class="price">${5:99.99€}</li>
+  <li class="description">${6:Une description}</li>
+  <li class="bullet-item">${7:Caractéristique 1}</li>
+  <li class="bullet-item">${8:Caractéristique 2}</li>
+  <li class="bullet-item">${9:Caractéristique 3}</li>
+  <li class="cta-button"><a class="button" href="#">${10:Acheter}</a></li>
+</ul><!-- /.pricing-table -->
+]]></content>
+  
+  <tabTrigger>foundation-pricing-table</tabTrigger>
+  <description>Foundation 5 - Pricing Table</description>
+</snippet>

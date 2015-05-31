@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Sub Nav - Une sous-barre de navigation, idéale par exemple pour insérer des boutons de filtrage
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/subnav.html#}
+
+  1 - Usage
+
+    .sub-nav   = (parent, <dl>)
+    [role]     = (parent, <dl>), probablement "menu / menuitem" *
+    [title]    = (parent, <ul>). Titre de cette navigation *
+    .active    = (<dd>) Rendre un item 'actif'
+
+        Rappel : 
+    <dl>       = Liste de définitions
+    <dt>       = Titre d'une liste de définitions
+    <dd>       = Description d'un élément de liste de définitions
+
+  --- 
+  * = pour accesibilité
+
+-->}}
+<dl class="sub-nav" role="${4:menu}" title="${5:Filtrer le contenu}">
+  <dt>Filter:</dt>
+  <dd role="menuitem" class="active"><a href="#">All</a></dd>
+  <dd role="menuitem"><a href="#">Active</a></dd>
+  <dd role="menuitem"><a href="#">Pending</a></dd>
+  <dd role="menuitem"><a href="#">Suspended</a></dd>
+</dl>
+<!-- /.sub-nav -->
+]]></content>
+  
+  <tabTrigger>foundation-subnav</tabTrigger>
+  <description>Foundation 5 - Navigation - Sub Nav</description>
+</snippet>

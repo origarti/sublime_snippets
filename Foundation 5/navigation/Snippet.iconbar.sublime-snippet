@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+${4:${1:<!--
+  # Iconbar - Afficher une barre de navigation constituée d'icônes.
+  # Documentation : ${2:http://foundation.zurb.com/docs/components/icon-bar.html} 
+  # Bibliothèque d'icônes : ${3:http://zurb.com/playground/foundation-icon-fonts-3}
+  
+  1- Usage
+  .icon-bar                          = (<parent>) - requis
+  .xxx-up                            = (<parent>) - requis - spécifier le nombre d'items composant la bar 
+                                        exemple ".five-up"
+                                        De".one-up" à ".eight-up" (1 à 8)
+  .(small-medium-large-)vertical,
+  .(small-medium-large-)horizontal   = (<parent>) Orientation de la bar en fonction du viewport
+  .label-right/left                  = (<label>) 
+  .disabled                          = (.item) Désactiver un item (= non-clickable)
+-->}}
+<div class="icon-bar ${5:five}-up ${7:${6:large-}horizontal} ${9:${8:small-}vertical}">
+  <a class="item">
+    <i class="fi-home"></i>
+  </a>
+  <a class="item">
+    <i class="fi-bookmark"></i>
+  </a>
+  <a class="item">
+    <i class="fi-info"></i>
+  </a>
+  <a class="item">
+    <i class="fi-mail"></i>
+  </a>
+  <a class="item">
+    <i class="fi-like"></i>
+  </a>
+</div>
+<!-- /.iconbar.${5:five}-up ${7:${6:large-}horizontal} ${9:${8:small-}vertical}-->
+]]></content>
+  
+  <tabTrigger>foundation-iconbar</tabTrigger>
+  <description>Foundation 5 - Navigation - Iconbar</description>
+</snippet>

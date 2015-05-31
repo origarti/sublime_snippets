@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<a href="#" role="button" class="button${1: tiny}${2: small}${3: large}${4: expand}${5: radius}${6: round}${7: success}${8: secondary}${9: info}${10: warning}${11: alert}">${12:Bouton}</a>
+]]></content>
+  
+  <tabTrigger>foundation-button</tabTrigger>
+  <description>Foundation 5 - Button / Bouton</description>
+</snippet>

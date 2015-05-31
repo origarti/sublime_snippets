@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Dropdown Button (JS) - Bouton ouvrant un menu d'action contextuel
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/dropdown_buttons.html}
+      
+      1 - Usage :
+      Styles            =     .[tiny small medium large] .[secondary alert success] .[radius round]
+      Etats             =     .f-dropdown = Défaut / Fermé | .f-dropdown.open.f-open-dropdown = Ouvert
+-->}}
+
+<button data-dropdown="${4:ID_dropdown}" aria-controls="${4:ID_dropdown}" aria-expanded="false" class="button dropdown large radius ">Bouton déroulant</button><br>
+
+<ul id="${4:ID_dropdown}" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+  <li><a href="#">Lien 1</a></li>
+  <li><a href="#">Lien 2</a></li>
+  <li><a href="#">Lien 3</a></li>
+</ul><!-- /#${4:ID_dropdown} .f-dropdown -->
+]]></content>
+  
+  <tabTrigger>foundation-dropdown-button</tabTrigger>
+  <description>Foundation 5 - Button / Bouton - Dropdown (JS)</description>
+</snippet>

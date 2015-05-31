@@ -1,0 +1,60 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Offcanvas (JS) - Faire apparaître un élément latéralement depuis le dehors de la zone parente
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/offcanvas.html}
+
+  1 - Usage
+  [data-offcanvas]      =      (<parent>) - requis
+  .off-canvas-wrap      =      (<parent>) - requis - Englobe l'ensemble
+  .inner-wrap           =      (<enfant>) - optionnel - 
+  .tab-bar              =      (<nav>)    - optionnel - Englobe une barre contenant des boutons déclenchant l'ouverture / fermeture du "off-canvas"
+  
+  // Déclenchement / Fermeture 
+  .left/right-off-canvas-toggle      =    permet de déclencher l'ouverture / fermeture du contenu de .left/right-off-canvas-menu
+  .exit-off-canvas                   =    (<a>['']</a>) - Fermer le "off-canvas"
+-->}}
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+      <nav class="tab-bar">
+          ${9:<section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>}
+
+          <section class="middle tab-bar-section">
+              <h1 class="title">${4:Titre principal}</h1>
+          </section>
+
+          ${14:<section class="right-small">
+              <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>}
+      </nav>
+
+      ${8:<aside class="left-off-canvas-menu">
+          <ul class="off-canvas-list">
+              <li><label>${5:Sous-Titre 1}</label></li>
+              <li><a href="#">${6:Item}</a></li>
+              <li><a href="#">${7:Item}</a></li>
+          </ul>
+      </aside><!-- /.left-off-canvas-menu -->}
+
+      ${13:<aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+              <li><label>${10:Sous-Titre 2}</label></li>
+              <li><a href="#">${11:Item}</a></li>
+              <li><a href="#">${12:Item}</a></li>
+          </ul>
+      </aside><!-- /.right-off-canvas-menu -->}
+
+      <section class="main-section">
+          ${15:<!-- Le contenu se place ici -->}
+      </section><!-- /.main-section -->
+
+      <a class="exit-off-canvas"></a>
+  </div><!-- /.inner-wrap -->
+</div><!-- /.off-canvas-wrap -->
+]]></content>
+  
+  <tabTrigger>foundation-offcanvas</tabTrigger>
+  <description>Foundation 5 - Offcanvas / Off-canvas</description>
+</snippet>

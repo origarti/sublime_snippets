@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[
+${4:${1:<!--
+	# Orbit - Un carousel (Deprecated)
+	# Documentation - ${2:http://foundation.zurb.com/docs/components/orbit.html}
+  # Pourquoi ce composant est-il déprécié ? - ${3:http://foundation.zurb.com/forum/posts/14504-moving-on-from-developing-orbit}
+
+  1 - Usage
+  Idéalement dans une liste <ul>.
+  [data-orbit]      =   (<parent>, <ul>) - requis
+  .orbit-caption    =   (<item>,   <li>) - requis   =  Description de la slide
+
+-->}}
+<ul class="${5:orbit-slides-container}" data-orbit>
+  <li>
+    <img src="${6:http://placehold.it/1000x300/A92B48/fff}" alt="${7:Diapo 1}" />
+    <div class="orbit-caption">
+      ${8:Légende 1.}
+    </div>
+  </li>
+  <li>
+    <img src="${9:http://placehold.it/1000x300/A92B48/fff}" alt="${10:Diapo 2}" />
+    <div class="orbit-caption">
+      ${11:Légende 2.}
+    </div>
+  </li>
+  <li>
+    <img src="${12:http://placehold.it/1000x300/A92B48/fff}" alt="${13:Diapo 3}" />
+    <div class="orbit-caption">
+      ${14:Légende 3.}
+    </div>
+  </li>
+</ul><!-- /.${5:orbit-slides-container} -->
+]]></content>
+  
+  <tabTrigger>foundation-orbit</tabTrigger>
+  <description>Foundation 5 - Orbit / Carousel (Deprecated) / Slider - Images</description>
+</snippet>

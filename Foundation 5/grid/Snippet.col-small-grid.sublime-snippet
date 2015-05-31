@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Grid - Grille responsive
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/grid.html}
+-->}}  	
+<div class="row">
+      <div class="small-${4:12} columns">
+            <!-- ${5:Mon contenu ici} -->
+      </div><!-- .small-${4:12} columns-->
+</div><!-- /.row -->
+]]></content>
+  
+  <tabTrigger>foundation-col-small</tabTrigger>
+  <description>Foundation 5 - Grid - 1 Colonne - Small</description>
+</snippet>

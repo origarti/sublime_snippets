@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+${4:${1:<!--
+	# Clearing - Afficher une Lightbox
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/clearing.html}
+	
+	# Interchange - Charger un élément (ou non) en fonction du viewport
+	# Documentation : ${3:http://foundation.zurb.com/docs/components/clearing.html}
+
+	1 - Usage
+	[data-clearing]  			= - requis - à définir sur le parent
+	.clearing-thumbs 			= (Optionnel), à définir sur le parent - Génère une gallerie de miniature
+	[data-caption]				= Légende de l'image, à définir sur l'image
+	[data-clearing-interchange] = Pour utiliser Interchange et des images responsives, à définir sur les liens
+	
+-->}}
+<ul class="clearing-thumbs" data-clearing>
+  <li><a href="${5:path/to/your/img}" data-caption="Description" data-clearing-interchange="${6:[path/to/default/img, (default)],} ${7:[path/to/bigger/img, (large)]"}><img src="${8:path/to/your/img-th}"></a></li>
+  <li><a href="${9:path/to/your/img}" data-caption="Description" data-clearing-interchange="${10:[path/to/default/img, (default)],} ${11:[path/to/bigger/img, (large)]"}><img src="${12:path/to/your/img-th}"></a></li>
+</ul>
+]]></content>
+  
+  <tabTrigger>foundation-clearing-responsive</tabTrigger>
+  <description>Foundation 5 - Clearing (js) / Lightbox + Interchange (Responsive)</description>
+</snippet>

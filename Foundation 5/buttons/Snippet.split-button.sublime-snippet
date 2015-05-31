@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Split Button (JS) - Bouton avec menu d'action contextuel
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/split_buttons.html}
+  .[tiny small medium large] .[secondary alert success] .[radius round]
+-->}}
+
+<a href="#" class="button split">${6:Actions} <span data-dropdown="${5:ID_bouton_contextuel}"></span></a><br>
+<ul id="${5:ID_bouton_contextuel}" class="f-dropdown" data-dropdown-content>
+  <li><a href="#">${7:Action 1}</a></li>
+  <li><a href="#">${8:Action 2}</a></li>
+  <li><a href="#">${9:Action 3}</a></li>
+</ul><!-- #${5:ID_bouton_contextuel} -->
+]]></content>
+  
+  <tabTrigger>foundation-split-button</tabTrigger>
+  <description>Foundation 5 - Button / Bouton - Split (JS)</description>
+</snippet>

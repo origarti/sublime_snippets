@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Breadcrumb - Fil d'ariane
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/breadcrumbs.html}
+
+	1 - Usage
+	.breadcrumbs 	= (<parent> (<ul>)) - requis 	- 
+	.unavailable 	= (<item>   (<li>)) - optionnel - Item indisponible
+	.current 		= (<item>   (<li>)) - optionnel - Item actif
+
+-->}}
+<ul class="breadcrumbs">
+  <li><a href="#">Accueil</a></li>
+  <li><a href="#">Catégorie</a></li>
+  <li class="unavailable"><a href="#">Page</a></li>
+  <li class="current"><a href="#">Page</a></li>
+</ul>
+<!-- /.breadcrumbs -->
+]]></content>
+  
+  <tabTrigger>foundation-breadcrumb</tabTrigger>
+  <description>Foundation 5 - Breadcrumbs</description>
+</snippet>

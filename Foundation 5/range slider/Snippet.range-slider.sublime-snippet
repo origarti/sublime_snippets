@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Range slider (JS) - Définir une valeur grâce à un système de Drag & Drop parmi un interval défini.
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/range_slider.html}
+
+  1 - Usage
+
+      [data-slider]       =     requis - parent
+      range-slider        =     requis - parent (+ .radius | .round  | .disabled )
+      .vertical-range     =     optionnel - parent
+      
+      data-options        =     "display_selector: #sliderOutput;" : permet de définir à quel endroit du DOM la valeur numérique exact s'affiche.
+                                "step: 20;" : Pas d'incrémentation / décrémentation de la valeur.
+                                "start: 1;" : Point de départ  de l'intervale .
+                                "end: 10;"  : Point final de l'intervale.
+
+  2 - Note
+      
+      La valeur sera attribuée à l'input de type "hidden" le plus proche.
+
+-->}}
+<div class="row">
+
+    <div class="small-10 medium-11 columns">
+        <div class="range-slider vertical-range" data-slider data-options="display_selector: #sliderOutput;">
+            <span class="range-slider-handle" role="slider" tabindex="0"></span>
+            <span class="range-slider-active-segment"></span>
+            <input type="hidden">
+        </div><!-- /.range-slider .vertical-range -->
+    </div>
+
+    <div class="small-2 medium-1 columns range-result">
+        <span id="sliderOutput"></span><!-- /#sliderOutput (où s'affiche le résultat) -->
+    </div><!-- /.range-result -->
+
+</div><!-- /.row -->
+]]></content>
+  
+  <tabTrigger>foundation-range:slider</tabTrigger>
+  <description>Foundation 5 - Form - Range Slider</description>
+</snippet>

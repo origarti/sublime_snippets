@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Side Nav - Un bon moyen de faire une navigation contextuelle
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/sidenav.html}
+
+  1 - Usage
+ 
+  .side-nav  = (parent, <ul>) - requis - 
+  [role]     = (parent, <ul>), probablement "navigation" *
+  [title]    = (parent, <ul>). Titre de cette navigation *
+  .divider   = (<li>) Insérer une séparation entre deux groupes d'items
+  .active    = (<li>) Rendre un item 'actif'
+
+  --- 
+  * = pour accesibilité
+-->}}
+<ul class="side-nav"  role="${4:navigation}" title="${5:Liste de Liens }">
+  <li class="active"><a href="#">${6:Lien 1}</a></li>
+  <li><a href="#">${7:Lien 2}</a></li>
+  <li class="divider"></li>
+  <li><a href="#">${8:Lien 3}</a></li>
+  <li><a href="#">${9:Lien 4}</a></li>
+</ul>
+<!-- /.side-nav -->
+]]></content>
+  
+  <tabTrigger>foundation-sidenav</tabTrigger>
+  <description>Foundation 5 - Navigation - Side Nav</description>
+</snippet>

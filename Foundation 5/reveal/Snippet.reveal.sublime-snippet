@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Reveal (JS)- Boîte de dialogue modale
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/reveal.html}
+
+      1 - Usage
+
+      [data-reveal-id]              =     requis - à placer sur l'élément ouvrant la modale. Il doit impérativement avoir pour valeur l'ID de la modale.
+      [data-reveal]                 =     requis - à placer sur le conteneur de la modale.
+      .reveal-modal                 =     requis - à placer sur le conteneur de la modale. Peut être combiner à .small, .medium, .large, .xlarge, .full
+
+      [aria-labelledby]             =     conseillé - à placer sur le conteneur de la modale. Doit avoir pour valeur l'ID du titre Hn de la modale (*)
+      
+      .close-reveal-modal           =     requis - à attribuer à un <a> vide ayant pour valeur "&#215;" (icône en forme de croix) à l'intérieur de ma modale.
+      .reveal.multiple_opened       =     True | false - Fermera ou non les/la boîte(s) modale(s) déjà ouverte(s).
+      _________________________
+      (*) accesibilité
+-->}}
+
+<a href="#" data-reveal-id="${4:ID_ma_modal}">Cliquer pour ouvrir la boîte modale</a>
+
+<div id="${4:ID_ma_modal}" class="reveal-modal ${5:small} ${6:medium} ${7:large} ${8:xlarge} ${9:full}"  data-reveal aria-labelledby="${10:ID_ma_mobal_titre}" aria-hidden="true" role="dialog">
+  <h2 id="${10:ID_ma_mobal_titre}">${11:Le titre de ma boîte modale}</h2>
+  ${12:<p class="lead">${13:Un paragraphe d'introduction}</p>}
+  ${14:<p>${15:Je suis un second paragraphe, classique.}</p>}
+  <a class="close-reveal-modal">&#215;</a>
+</div><!-- /#${4:ID_ma_modal} .reveal-modal ${5:small} ${6:medium} ${7:large} ${8:xlarge} ${9:full}-->
+]]></content>
+  
+  <tabTrigger>foundation-reveal</tabTrigger>
+  <description>Foundation 5 - Reveal / Popup / Modal (JS)</description>
+</snippet>

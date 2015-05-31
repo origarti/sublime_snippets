@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<span class="label${5: success}${6: warning}${7: info}${8: alert}${9: secondary}${10: round}${11: radius}">${4:Mon Label}</span>
+]]></content>
+  
+  <tabTrigger>foundation-labels</tabTrigger>
+  <description>Foundation 5 - Labels</description>
+</snippet>

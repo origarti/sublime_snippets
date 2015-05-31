@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Abide (JS) - Validation - 
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/abide.html}
+
+  1 - Usage
+
+  Patterns : 
+    Name                        Valid Example or Format
+    alpha               |       Foundation
+    alpha_numeric       |       A1Sauce
+    integer             |       -1
+    number              |       2937
+    card                |       visa, amex, mastercard
+    cvv                 |       384 or 3284
+    email               |       foundation@zurb.com
+    url                 |       http://zurb.com
+    domain              |       zurb.com
+    datetime            |       YYYY-MM-DDThh:mm:ssTZD
+    date                |       YYYY-MM-DD
+    time                |       HH:MM:SS
+    dateISO             |       not sure yet
+    month_day_year      |       MM/DD/YYYY
+    color               |       #FFF or #FFFFFF
+
+-->}}
+<form data-abide>
+    <div class="name-field">
+        <label for="ID_input">Your name <small>required</small></label>
+            <input id="ID_input" type="type" required pattern="[a-zA-Z]+" placeholder="Your name">
+        <small class="error">Name is required and must be a string.</small>
+    </div><!-- /.name-field -->
+</form>
+]]></content>
+  
+  <tabTrigger>foundation-accordion</tabTrigger>
+  <description>Foundation 5 - Formulaire - Abide (JS) - Validation</description>
+</snippet>

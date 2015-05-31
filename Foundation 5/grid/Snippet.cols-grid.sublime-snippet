@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+	# Grid - Grille responsive
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/grid.html}
+-->}}  	
+<div class="row">${4:
+	<div class="small-${5:4} medium-${6:4} large-${7:4} columns">
+		${8:<!-- Colonne 1 -->}
+	</div><!-- /.small-${5:4}.medium-${6:4}.large-${7:4} columns -->}
+  ${9:
+	<div class="small-${10:4} medium-${11:4} large-${12:4} columns">
+		${13:<!-- Colonne 2 -->}
+	</div><!-- /.small-${10:4}.medium-${11:4}.large-${12:4} columns-->}
+  ${14:
+	<div class="small-${15:4} medium-${16:4} large-${17:4} columns">
+		${18:<!-- Colonne 3 -->}
+	</div><!-- /.small-${15:4}.medium-${16:4}.large-${17:4} columns-->}
+  ${19:
+	<div class="small-${20:4} medium-${21:4} large-${22:4} columns">
+		${23:<!-- Colonne 4 -->}
+	</div><!-- /.small-${20:4} medium-${21:4} large-${22:4} columns -->}
+</div>
+<!-- /.row -->
+]]></content>
+  
+  <tabTrigger>foundation-col-4-grid</tabTrigger>
+  <description>Foundation 5 - Grid - 4 Colonnes</description>
+</snippet>

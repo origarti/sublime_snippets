@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+  # Magellan - Afficher une sorte de Breadcrumb fixé en haut de l'écran affichant où l'on se trouve en temps réel
+  # Documentation : ${2:http://foundation.zurb.com/docs/components/magellan.html} 
+  
+  1- Usage
+  [active_class]              = 'active' - Spécifier la classe utilisée pour les sections actives / en cours.
+  [destination_threshold]     = 20 -  Nb de pixels par rapport à la section de destination avant de la considérer comme active / en cours.
+  [throttle_delay]            = 50 -  Fréquence temporelle de calcul de la position actuelle.
+  [threshold]                 = 0  -  Nb de pixels à partir duquel la barre Magellan se fixe en haut de son conteneur.
+  [fixed_top]                 = 0  -  Hauteur de la barre par rapport à son conteneur. 
+  [offset_by_height]          = true | false - Définir à true à moins que "l'expédition Magellan" soit sur le côté.
+
+
+-->}}
+<div class="magellan-container ${11:fixed}" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;active_class:'active';fixed_top: 0;offset_by_height: true;">
+    <dl class="sub-nav">
+        <dd data-magellan-arrival="${4:ancre1}"><a href="#${4:ancre1}">${5:Ancre 1}</a></dd>
+        <dd data-magellan-arrival="${6:ancre2}"><a href="#${6:ancre2}">${7:Ancre 2}</a></dd>
+        <dd data-magellan-arrival="${8:ancre3}" ${9:class="active"}><a href="#${8:ancre3}">${10:Ancre 3}</a></dd>
+    </dl><!-- /.sub-nav -->
+</div><!-- /.magellan-container ${11:fixed} -->
+]]></content>
+  
+  <tabTrigger>foundation-magellan</tabTrigger>
+  <description>Foundation 5 - Navigation - Magellan (Sticky bar)</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+${3:${1:<!--
+      # Thumbnails - Miniatures
+      # Documentation : ${2:http://foundation.zurb.com/docs/components/thumbnails.html}
+-->}}
+<a class="th" role="button" aria-label="${4:Thumbnail}" href="${5:http://placehold.it/450x300/FDC43D/fff}">
+  <img src="${6:http://placehold.it/300x300/FDC43D/fff}" alt="${4:Thumbnail}">
+</a>
+]]></content>
+  
+  <tabTrigger>foundation-thumbnail</tabTrigger>
+  <description>Foundation 5 - Medias - Thumbnails</description>
+</snippet>
