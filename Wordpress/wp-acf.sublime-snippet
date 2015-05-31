@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<?php the_field('nom_du_champ'); ?>
+]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp-acf</tabTrigger>
+	<description>Affiche "the_field('');</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!--<scope>source.php</scope>-->
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+/**
+* Ajouter un fichier Javascript (JS) personnalisée au Back-Office (Admin) de Wordpress
+* Doc : http://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts
+* Doc : http://codex.wordpress.org/Function_Reference/wp_register_script
+*
+* admin_enqueue_scripts = Hook pour Charger des scripts pour le Back-Office
+* wp_enqueue_scripts  = Inclure des scripts JS y compris pour le Front-Office
+*
+*/
+// Ceci est à placer dans functions.php		
+
+function admin_custom_js() {
+	wp_register_script( 'admin_custom_script', get_template_directory_uri() . '/js/custom-script.js'
+	wp_enqueue_script( 'admin_custom_script' );
+}
+
+// On exécute cette fonction au moment du chargement des scripts du Back-office uniquement
+add_action( 'admin_enqueue_scripts', 'admin_custom_js' );
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_admin_custom_js</tabTrigger>
+	<description>Wordpress - Ajouter un fichier Javascript (JS) personnalisée au Back-Office (Admin) de Wordpress</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php bloginfo('template_url'); ?>]]></content>
+	<description>Wordpress - Bloginfo('template_url')</description>
+	<tabTrigger>wp-template_url</tabTrigger>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+/**
+* Ajouter un fichier Javascript (JS) personnalisée au Back-Office (Admin) de Wordpress
+* Doc : http://codex.wordpress.org/Function_Reference/add_theme_support
+* Doc : http://codex.wordpress.org/Function_Reference/add_image_size
+*
+*/
+// Ceci est à placer dans functions.php		
+// Enregistrer le support d'une ou plusieurs fonctionnalités pour le Theme
+function add_theme_support_thumbnail()  {
+
+	add_theme_support( 'post-thumbnails' );
+
+	 // Définir une taille personnalisée de miniature
+	 // add_image_size( \$name, \$width, \$height, \$crop );
+	 	/*
+	 	* \$name = Nom de ce nouveau format de miniature
+	 	* \$width & \$height = hauteur et largeur de ce nouveau format
+	 	* \$crop = Recadrer l'image si nécessaire | Defaut = false
+	 	* =>  false = Redimensionnement des miniatures proportionnellement, true = Recadrage forcé, array = Coordonnées de recadrage selon "x_crop_position, y_crop_position"
+	 	*/
+}
+
+// On initialise le support de cette fonctionnalité dans le Hook 'after_setup_theme'
+add_action( 'after_setup_theme', 'add_theme_support_thumbnail' );
+
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_add_theme_support_post_thumbnail</tabTrigger>
+	<description>Wordpress - Ajouter le support des Miniatures (Post Thumbnail) à un Theme Wordpress</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

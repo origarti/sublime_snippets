@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[// Utiliser une version de JQuery hébergée plutôt que la version 1.1 utilisée par WP
+
+function modifier_jquery() {
+    if (!is_admin()) {
+        wp_deregister_script('jquery');
+        wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', false, '1.9.1');
+        wp_enqueue_script('jquery');
+    }
+}
+add_action('init', 'modifier_jquery');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_jquery_version</tabTrigger>
+	<description>Modifier la version de JQuery chargée par défaut par WP</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

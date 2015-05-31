@@ -1,0 +1,48 @@
+<snippet>
+<content><![CDATA[
+<?php
+/**
+* La Boucle (The Loop)
+* Doc : http://codex.wordpress.org/The_Loop
+* [Miniature] (the_post_thumbnail)
+	* Doc : http://codex.wordpress.org/Function_Reference/the_post_thumbnail
+*
+* [Pagination]
+	* Pagination (suivant): http://codex.wordpress.org/Function_Reference/next_post_link
+	* Pagination (précédent): http://codex.wordpress.org/Function_Reference/prev_post_link
+*
+*/
+?>
+<?${TM_PHP_OPEN_TAG:php} if ( have_posts() ) {
+	 while ( have_posts() ) : the_post(); ?>
+	${1:
+	<?php 
+		the_id(); 
+		the_title(); 
+		the_exceprt(); 
+		the_date(); 
+		the_permalink(); 
+		
+		// MINIATURE \$attr = (defaut = 'none')
+		if( has_post_thumbnail() ) {
+			the_post_thumbnail(\$size, \$attr);  
+		}
+		the_category(); 
+	?>
+}
+<?${TM_PHP_OPEN_TAG:php} endwhile; ?>
+${2:
+// 
+<?php previous_post_link('%link', '%title'); ?>
+<?php next_post_link('%link', '%title'); ?>
+}
+<?${TM_PHP_OPEN_TAG:php} else: ?>
+${0:<!-- Aucun résultat correspondant -->}
+<?${TM_PHP_OPEN_TAG:php} endif; ?>
+]]>
+</content>
+	
+<tabTrigger>wp_the_loop</tabTrigger>
+<description>Wordpress - The Loop (Boucle)</description>
+	
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+/**
+* Ajouter une feuille de style personnalisée pour le Back-Office (Admin) de Wordpress
+* Source : http://wpchannel.com/creer-feuille-styles-back-office-wordpress/
+*/
+// Ceci est à placer dans functions.php		
+function admin_css_custom() {
+	\$admin_handle = 'admin_css_custom';
+	
+	// Le chemin de destination de notre nouvelle feuille de style pour notre Back-Office
+	// ici : repertoire_de_notre_theme/css/admin.css
+
+	\$admin_css_custom_file = get_template_directory_uri() . '/css/admin.css';
+	
+	wp_enqueue_style( \$admin_handle, \$admin_css_custom_file );
+}
+// On hook le chargement de la feuille de style CSS par défaut du Back-Office en ajoutant au passage notre propre feuille de style
+add_action('admin_print_styles', 'admin_css_custom', 11 );
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_admin_custom_css</tabTrigger>
+	<description>Wordpress - Ajouter une feuille de style (CSS) personnalisée au Back-Office (Admin) de Wordpress</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

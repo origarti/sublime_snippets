@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**
+* Ajouter un widget au Dashboard
+* Doc : http://codex.wordpress.org/Function_Reference/wp_add_dashboard_widget
+* Dashboard_Widgets_API : http://codex.wordpress.org/Dashboard_Widgets_API
+* 
+* Function : wp_add_dashboard_widget((\$widget_id, \$widget_name, \$callback, \$control_callback, \$callback_args)
+*
+	* \$widget_id (requis) = Un identifiant (slug) pour désigner notre widget. Notre widget aura pour ID #\$widget_id   | Defaut = 'none'
+	* \$widget_name (requis) = Le titre qui s'affichera en haut de notre widget   | Defaut = 'none'
+	* \$callback (requis) = Le nom de la fonction qui permettra de rendre le contenu au sein du widget  | Defaut = 'none'
+	* \$control_callback (facultatif) = Le nom de la fonction à exécuter lorsque l'on sauvegarde les paramètres d'un formulaire de réglages pour notre widget.  | Defaut = ''
+	* \$callback_args (facultatif) = argument(s) à faire passer à notre fonction \$callback  | Defaut = ''
+*/
+
+
+// On hook la création de notre widget au moment du chargement du dashboard avec add_action 'wp_dashboard_setup'*
+add_action('wp_dashboard_setup', 'notre_fonction_pour_creer_notre_widget' );
+
+function notre_fonction_pour_creer_notre_widget() {
+	wp_add_dashboard_widget('widget_id', 'widget_name', 'widget_name_rendu');
+}
+function widget_name_rendu(){
+	// Le contenu de notre widget
+}
+?>
+]]></content>
+	
+	<tabTrigger>wp-add-dashboard-widget</tabTrigger>
+	<description>Wordpress - Ajouter un widget au Dashboard WP (Admin)</description>
+</snippet>

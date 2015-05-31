@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php bloginfo('stylesheet_url'); ?>]]></content>
+	<description>Wordpress - Bloginfo('stylesheet_url')</description>
+	<tabTrigger>wp-stylesheet_url</tabTrigger>
+</snippet>

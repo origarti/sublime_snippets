@@ -1,0 +1,81 @@
+<snippet>
+<content><![CDATA[
+<?php
+/**
+* Récupérer des posts (Query posts) selon les critères spécifiés dans $args (array)
+* Doc : http://codex.wordpress.org/Function_Reference/query_posts
+* 
+*/
+\$args = array(
+    'post_type' => '${1:}',
+    'p' => '${2:}', /* ID du post | Exemple => (int) */
+    'name' => '${3:}', /* Slug du post | Exemple => (string) */
+    'page_id' => '${4:}', /* ID d'une page | Exemple =>  (int) */
+    'pagename' => '${5:}', /* Slug de la page | Exemple => (string) */
+    'post_parent' => '${6:}', /*  Définir l'ID du parent duquel on doit retourner les pages enfant. Mettre à zéro pour ne retourner que le parent lui-même.  */
+    'post_parent_in' => '${7:}', /* retourner Plusieurs enfant de ce parent | Exemple =>  array(2, 5)*/
+    'post_parent_not_in' => '${8:}', /* exclure Plusieurs parents | Exemple =>  array(2, 5)*/
+    'post_in' => '${9:}', /* Retourne tous les posts donc l'ID est cité dans un array. [Y compris les sticky post, sinon utiliser "ignore_sticky_posts"]| Exemple => array() */
+    'post_not_in' => '${10:}', /* Retourne tous les posts donc l'ID est cité dans un array. [Y compris les sticky post, sinon utiliser "ignore_sticky_posts"]| Exemple => array() */
+    'post_status' => '${11:}', /* Etat de publication de l'article | Exemple =>  array('publish', 'pending (en attente)', 'draft (brouillon)', 'auto-draft', 'future', 'private', 'inherit (une révision), 'trash', 'any')*/
+
+    'cat' => '${12:}', /* Article(s) d'une ou plusieurs catégories. Une valeur négative exclut l'ID concerné | Exemple => array(23, 57, -1) */
+    'category_name' => '${13:}', /* Articles d'une ou plusieurs catégories en fonction de leur slug */
+    'category_and' => '${14:}'/* Articles qui possèdent l'une des catégories précisées via leur ID.  | Exemple => array(2, 5) */ 
+    'category_not_in' => '${15:}', /* Exclure Articles qui ne font pas parties des catégories précisées via leur ID.  | Exemple =>  array(2, 5) */
+    
+    'tag' => '${16:}', /*  Mot Clé | Exemple => Le slug du mot clé (string)  'tag=bread+baking+recipe' affichera uniquement les posts qui ont les trois tags*/
+    'tag_id' => '${17:}', /* L'ID d'un mot clé | Exemple =>  (int) */
+    'tag_and' => '${18:}', /* inclure Plusieurs ID de mots clés | Exemple => array(2, 5) */
+    'tag_in' => '${19:}', /* | Exemple => array(2, 5) */
+    'tag_not_in' => '${20:}', /*  exclure Plusieurs ID de mots clés | Exemple =>  array(2,5) */
+    'tag_slug_and' => '${21:}', /* inclure Plusieurs SLUG de mots clés | Exemple => array('bread', 'baking')  */
+    'tag_slug_in' => '${22:}', /* | Exemple =>  array()*/
+    
+    'posts' => ${23:}, /* Nombre de résultat maximum | Exemple => (int)*/
+    'posts_per_page' => ${23:}, /* Post(s) par page de résultat | Exemple =>  (int) "-1" = tous les posts*/
+    'posts_per_archive_page' => ${24:}, /* idem que précédent mais pour category.php -> prioritaire si category.php utilisé*/
+    'offset ' => ${25:}  /* afficher tous les x posts retournés. | Exemple =>  (int)  - {Peut flinguer la pagination]. Ignoré si "post_per_page = -1"*/
+    'nopaging' => '${26:}', /* Booléen true / false. Default = false  */
+    'paged' => '${27:}', /* Nombre de page(s) de résultat | Exemple =>  (int)*/
+    'page' => '${28:}', /* Nombre de page(s) pour une page d'accueil statique | Exemple =>  (int)*/
+    'ignore_sticky_posts ' => '${29:}', /* Booléen : true / false */
+    
+    //'year' => '${30:}', /* Année | Exemple =>  2014*/
+    //'monthnum' => '${31:}', /* Mois de l'année | Exemple =>  12 pour Décembre */
+    //'day' => '${32:}', /* Jour du mois | Exemple =>  1 à 31 pour Décembre */
+    //'hour' => '${33:}', /* Heure | Exemple =>  de 0 à 23 (int) */
+    //'minute' => '${34:}', /* Minute  | Exemple =>    de 0 à 60 (int)  */
+    //'second' => '${35:}', /* second  | Exemple =>    de 0 à 60 (int)  */
+    //'m' => '${36:}', /* AnneeMois  | Exemple =>    201307 (int)  */
+    //'before' => '${37:}', /* Posts publiés avant date saisie  | Exemple =>    array('year', 'mois', 'jour')   */
+    //'after' => '${38:}', /* Posts publiés après date saisie  | Exemple =>    array('year', 'mois', 'jour')   */
+
+    //'meta_query' => '${39:}', /* couple(s) clé/valeur d'un champ personnalisé (accepte plusieurs array) | 
+    // Exemple =>  array('relation' => 'OR', array(key' => 'acteur', 'value' => 'Clint Eastwood', 'compare' => '='), array(key' => 'acteur', 'value' => 'Bradley Cooper', 'compare' => '=') */
+    //'meta_key' => '${40:}', /* Clé d'un Champ personnalisé | Exemple =>  'couleur' */
+    //'meta_value' => '${41:}', /* Valeur d'un Champ personnalisé | Exemple =>  'bleu' */
+    //'meta_compare' => '${42:}', /* Comparateur entre meta_key et meta_value | Exemple => '<= | NOT LIKE | BETWEEN | '*/
+    //'orderby' => '${43:}', /* si on saisit "meta_value_num", l'order se fera en fonction de la valeur saisie de meta_key*/
+    //'order' => '${44:}', /* Comparateur entre meta_key et meta_value | Exemple => '<= | NOT LIKE | BETWEEN | '*/
+
+
+  
+  );
+
+query_posts($args);
+ if ( have_posts() ) : while ( have_posts() ) : the_post();
+ 
+ 	// BOUCLE ICI
+
+ endwhile; endif;
+ wp_reset_query(); 
+?>
+
+]]>
+</content>
+	
+<tabTrigger>wp_query_posts</tabTrigger>
+<description>Wordpress - Query Posts</description>
+	
+</snippet>

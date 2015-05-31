@@ -1,0 +1,39 @@
+<snippet>
+<content><![CDATA[
+<?php
+// Function : WP_NAV_MENU() : http://codex.wordpress.org/Function_Reference/wp_nav_menu
+
+/* Liste de l'ensemble des classes générées automatiquement par WP : 
+   http://codex.wordpress.org/Function_Reference/wp_nav_menu#Menu_Item_CSS_Classes  
+   */
+
+/* Afficher un menu en particulier
+   Exemple : wp_nav_menu( array('menu' => 'Menu Principal' ));
+   */
+
+\$defaults = array(
+	'theme_location'  => '',
+	'menu'            => 'Menu Principal',
+	'container'       => 'nav',
+	'container_class' => '',
+	'container_id'    => '',
+	'menu_class'      => 'menu_principal',
+	'menu_id'         => '',
+	'echo'            => true,
+	'fallback_cb'     => 'wp_page_menu',
+	'before'          => '',
+	'after'           => '',
+	'link_before'     => '',
+	'link_after'      => '',
+	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+	'depth'           => 0,
+	'walker'          => ''
+);
+wp_nav_menu( \$defaults );
+?>
+]]>
+</content>
+	<tabTrigger>wp_nav_menu</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>Wordpress - Enregistre et appelle un menu (nav) personnalisé WP</description>
+</snippet>

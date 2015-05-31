@@ -1,0 +1,63 @@
+<snippet>
+	<content><![CDATA[
+// CODEX : http://codex.wordpress.org/Post_Types
+register_post_type(   
+   'film',
+   array(     
+    'label' => 'Films',
+    'labels' => array(       
+        'name' => 'Films',
+        'singular_name' => 'Film',
+        'all_items' => 'Tous les Films',
+        'add_new_item' => 'Ajouter un Film',
+        'edit_item' => 'Éditer le Film',
+        'new_item' => 'Nouveau Film',
+        'view_item' => 'Voir le Film',
+        'search_items' => 'Rechercher parmi les Films',
+        'not_found' => 'Pas de Film trouvé',
+        'not_found_in_trash'=> 'Pas de Film dans la corbeille'       
+    ),     
+    'public' => true,     
+    'capability_type' => 'post',
+    'supports' => array(      
+        'title',        
+        'editor',
+        'thumbnail',
+        'excerpt'
+    ),
+    'has_archive' => true,
+    'description'   => "",
+    'public'        => true,
+    'menu_position' => 6,
+    ) 
+);
+
+register_taxonomy(   
+   'type',
+   'film',
+   array(   
+    'label' => 'Types',
+    'labels' => array(  
+    'name' => "Types d'articles",
+    'singular_name' => 'Type',
+    'all_items' => 'Tous les types',
+    'edit_item' => 'Éditer le type',
+    'view_item' => 'Voir le type',
+    'update_item' => 'Mettre à jour le type',
+    'add_new_item' => 'Ajouter un type',
+    'new_item_name' => 'Nouveau type',
+    'search_items' => 'Rechercher parmi les types',
+    'popular_items' => 'Types les plus utilisés'
+    ),   
+    'hierarchical' => true   
+    ) 
+);
+
+
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_custom_post_type</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

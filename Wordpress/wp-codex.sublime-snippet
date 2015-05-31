@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+/*		
+* 00 - The CODEX - Sommaire - ${10:http://codex.wordpress.org/Function_Reference/}
+*________________________________________________________________________________________________________
+
+* 01 - The CODEX - Post, Custom Post Type, Pages, Attachment et Bookmarks 
+* 	== > ${11:http://codex.wordpress.org/Function_Reference/#Post.2C_Custom_Post_Type.2C_Page.2C_Attachment_and_Bookmarks_Functions}
+*________________________________________________________________________________________________________
+
+* 02 - The CODEX -  Categories, Tag et Taxonomy
+*  	== > ${12:http://codex.wordpress.org/Function_Reference/#Category.2C_Tag_and_Taxonomy_Functions}
+*________________________________________________________________________________________________________
+* 03 - The CODEX - Utilisateurs et Auteur
+*  	== > ${13:http://codex.wordpress.org/Function_Reference/#User_and_Author_Functions}
+*________________________________________________________________________________________________________
+* 04 - The CODEX - Flux
+*  	== > ${14:http://codex.wordpress.org/Function_Reference/#Feed_Functions}
+*________________________________________________________________________________________________________
+* 05 - The CODEX - HTTP API
+*  	== > ${15:http://codex.wordpress.org/Function_Reference/#HTTP_API_Functions}
+*________________________________________________________________________________________________________
+* 06 - The CODEX - Commentaires, Ping, et Trackback
+*  	== > ${16:http://codex.wordpress.org/Function_Reference/#Comment.2C_Ping.2C_and_Trackback_Functions}
+*________________________________________________________________________________________________________ 
+* 07 - The CODEX - Action, Filter, et Plugin
+*  	== > ${17:http://codex.wordpress.org/Function_Reference/#Action.2C_Filter.2C_and_Plugin_Functions}
+*________________________________________________________________________________________________________ 
+* 08 - The CODEX - Themes
+*  	== > ${18:http://codex.wordpress.org/Function_Reference/#Theme-Related_Functions}
+*________________________________________________________________________________________________________ 
+* 09 - The CODEX - Formatage
+*  	== > ${19:http://codex.wordpress.org/Function_Reference/#Formatting_Functions}
+*________________________________________________________________________________________________________ 
+* 10 - The CODEX - DIVERS
+*  	== > ${20:http://codex.wordpress.org/Function_Reference/#Miscellaneous_Functions}
+* 
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp-codex</tabTrigger>
+	<description>Wordpress - Affiche le sommaire de l'ensemble des références des functions / fonctionnalités du Codex WP</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

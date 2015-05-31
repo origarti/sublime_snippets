@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+// Un 4ème paramètre peut-être ajouté : l'ID du post à modifier (http://codex.wordpress.org/Function_Reference/edit_post_link)
+<?php edit_post_link('Modifier', '<avant>', '</apres>'); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_edit_post_link</tabTrigger>
+	<description>Wordpress - Edit post link</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
