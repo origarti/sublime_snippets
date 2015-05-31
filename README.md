@@ -10,13 +10,13 @@
 ### Foundation 5.5 (en cours)
 
 ####Todo : 
-- [ ] .row autour de la plupart des composants      - A faire
-- [ ] Nettoyer Indentation et tabulations           - En cours
-- [ ] Documenter Abide (JS)                         - En cours
-- [ ] Documenter Classes de visibilité              - A faire
-- [ ] Documenter Interchange (JS)                   - A faire
-- [ ] Documenter Joyride (JS)                       - En cours
-- [ ] Documenter Formulaires (CSS)                  - En cours
+- [ ] .row autour de la plupart des composants      - **A faire**
+- [ ] Nettoyer Indentation et tabulations           - **En cours**
+- [ ] Documenter Abide (JS)                         - **En cours**
+- [ ] Documenter Classes de visibilité              - **A faire**
+- [ ] Documenter Interchange (JS)                   - **A faire**
+- [ ] Documenter Joyride (JS)                       - **En cours**
+- [ ] Documenter Formulaires (CSS)                  - **En cours**
 
 
 ## CMS
