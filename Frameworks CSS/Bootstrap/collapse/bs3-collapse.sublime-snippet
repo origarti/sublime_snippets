@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 ${1:<!--
-	@Documentation : ${2:http://getbootstrap.com/javascript/#collapse}
+	# Collapse - Système "d'accordéon" rétractable
+    # Documentation: ${2:http://getbootstrap.com/javascript/#collapse}
 	1 - Usage :
 	.collapse = masque le contenu
 	.collapsing = est appliqué durant la transition
