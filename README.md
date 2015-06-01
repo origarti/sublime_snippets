@@ -25,4 +25,4 @@
 
 ### Wordpress
 
-Bientôt
+- [x] Premier commit fait
