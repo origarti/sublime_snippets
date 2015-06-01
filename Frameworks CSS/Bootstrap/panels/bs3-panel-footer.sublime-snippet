@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <div class="panel panel-default">
 	  <div class="panel-body">
 			${1:Panel content}
@@ -13,5 +10,5 @@
 </div>
 ]]></content>
 	<tabTrigger>bs3-panel:footer</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Panels - xxx</description>
 </snippet>

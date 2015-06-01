@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Badge
-	URL : http://getbootstrap.com/components/#badges
-	-->
 <span class="badge">${1:Badge}</span>
 ]]></content>
 	<tabTrigger>bs3-badge</tabTrigger>

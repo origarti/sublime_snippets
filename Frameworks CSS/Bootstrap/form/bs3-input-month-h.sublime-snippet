@@ -1,15 +1,12 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - element
-	http://getbootstrap.com/css/#forms
-	-->
 <div class="form-group">
-	<label for="input${1/(\w+)/\u\1/g}" class="col-${2:sm-2} control-label">${1/(\w+)/\u\1/g}:</label>
-	<div class="col-${3:sm-10}">
-		<input type="month" name="${1}" id="input${1/(\w+)/\u\1/g}" class="form-control" ${4:value="${5}"} ${6:required="required"} ${7:title="${8}"}>
+	<label for="${1:ID_champ}" class="col-sm-2 control-label">${2:Label}</label>
+	<div class="col-sm-10">
+		<input type="month" name="${3}" id="${1:ID_champ}" class="form-control" ${4:value="${5}"} ${6:required} ${7:title="${8}"} ${-:placeholder="${2}"}>
 	</div>
 </div>
 ]]></content>
 	<tabTrigger>bs3-input:month:h</tabTrigger>
-<description>Bootstrap 3 - Formulaire - element</description>
+<description>Bootstrap 3 - Formulaire - Input - Month - Horizontal</description>
 </snippet>

@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <div class="navbar">
 	<a class="navbar-brand" href="#">${1:Title}</a>
 	<ul class="nav navbar-nav">
@@ -16,5 +13,5 @@
 </div>
 ]]></content>
 	<tabTrigger>bs3-navbar:basic</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Navbar - Basic (logo + 2 Liens)</description>
 </snippet>

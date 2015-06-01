@@ -1,12 +1,9 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <div class="container">
 	${0}
-</div>
+</div><!--/.container -->
 ]]></content>
 	<tabTrigger>bs3-container</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Grille / Grid - Container</description>
 </snippet>

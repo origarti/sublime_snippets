@@ -1,10 +1,7 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Danger
-	URL : http://getbootstrap.com/css/#buttons
-	-->
 <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-danger">${4:button}</${1:button}>
 ]]></content>
 	<tabTrigger>bs3-block-button:danger</tabTrigger>
-<description>Bootstrap 3 - Boutons - Danger</description>
+<description>Bootstrap 3 - Bouton - Block - Danger</description>
 </snippet>

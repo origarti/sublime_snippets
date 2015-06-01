@@ -1,14 +1,17 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
+	<content><![CDATA[${9:<!--
+    # List-Group : Faire des listes flexibles complexes
+    # Documentation : ${8:http://getbootstrap.com/components/#list-group}
+    .disabled = désactive un des items de la liste
+    -->
+}
+}
 <div class="list-group">
-	<a href="#" class="list-group-item active">Item 1</a>
-	<a href="#" class="list-group-item">Item 2</a>
-	<a href="#" class="list-group-item">Item 3</a>
+	<a href="${1:#}" class="list-group-item ${2:active}">${3:Item 1}</a>
+    <a href="${4:#}" class="list-group-item">${5:Item 2}</a>
+    <a href="${6:#}" class="list-group-item">${7:Item 3}</a>
 </div>
 ]]></content>
 	<tabTrigger>bs3-list-group:linked</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - List-group - Liens</description>
 </snippet>

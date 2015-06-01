@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <table class="table table-hover">
 	<thead>
 		<tr>
@@ -17,5 +14,5 @@
 </table>
 ]]></content>
 	<tabTrigger>bs3-table:hover</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - xxx</description>
 </snippet>

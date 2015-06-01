@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+${1:<!--
+	@Documentation : ${2:http://getbootstrap.com/javascript/#collapse}
+	1 - Usage :
+	.collapse = masque le contenu
+	.collapsing = est appliqué durant la transition
+	.collapse.in = révèle le contenu
+
+	On peut utiliser un lien avec un attribut href ou un bouton avec un attribut data-target. Dans les deux cas, un data-toggle='collapse' est requis
+
+	#2 - Via data attributes
+	Ajouter simplement data-toggle="collapse" et un data-target à l'élément pour automatiquement lui assigner le contrôle d'un élément "collapsable"
+
+	L'attribut data-target accepte un sélecteur CSS sur lequel appliquer le repli.
+	Bien veuiller à ajouter la classe ".collapse" à l'élément repliable.
+	Ajouter la classe additionnel ".in" fait que le contenu est révélé par défaut.
+
+	Pour ajouter un système de groupe d'accordéon à un controller de "(re)pli", ajouter un data-parent="#selecteur". Se référer à la démo en action.
+
+	3 - Via JavaScript
+	Activer manuellement :
+
+	\$('.collapse').collapse()
+-->
+}
+<a class="btn btn-primary" data-toggle="collapse" href="#${3:identifiant_collapse}" aria-expanded="false" aria-controls="${3:identifiant_collapse}">
+  ${4:<!-- Intitulé du bouton de déclenchement du Collapse-->}
+</a>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#${3:identifiant_collapse}" aria-expanded="false" aria-controls="${3:identifiant_collapse}">
+  <!-- Bouton avec un data-toggle -->
+</button>
+<div class="collapse" id="${3:identifiant_collapse}">
+  <div class="well">
+    ${5:<!-- Contenu du collapse -->}
+  </div>
+</div><!-- /.collapse -->
+
+]]></content>
+	<tabTrigger>bs3-collapse</tabTrigger>
+<description>Bootstrap 3 - Collapse / Accordeon</description>
+</snippet>

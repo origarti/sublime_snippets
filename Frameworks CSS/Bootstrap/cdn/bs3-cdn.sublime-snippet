@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:<!-- Dernière version compilée du CSS et du JS de Bootstrap -->}
+
+<link rel="stylesheet" media="screen" href="/https://maxcdn.bootstrapcdn.com/bootstrap/${2:3.2.0}/css/bootstrap.min.css">
+${3:<script src="//code.jquery.com/jquery.js"></script>}
+<script src="/https://maxcdn.bootstrapcdn.com/bootstrap/${2:3.2.0}/js/bootstrap.min.js"></script>
+]]></content>
+	<tabTrigger>bs3-cdn</tabTrigger>
+<description>Bootstrap 3 - Version - CSS et JS - Minifié</description>
+</snippet>

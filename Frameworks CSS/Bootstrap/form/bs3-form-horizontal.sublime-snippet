@@ -1,22 +1,24 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - horizontal
-	http://getbootstrap.com/css/#forms
-	-->
-<form action="${1}" method="${2:POST}" class="form-horizontal" role="form">
+	${1:<!--
+    # Formulaire Horizontal
+    # Documentation : ${2:http://getbootstrap.com/css/#forms-horizontal}
+    -->
+    }
+<form action="${3}" method="${4:POST}" class="form-horizontal" role="form">
 		<div class="form-group">
-			<legend>${3:Form title}</legend>
-		</div>
+			<legend>${5:Form title}</legend>
+		</div><!--/.form-group -->
 
 		${0}
 
 		<div class="form-group">
 			<div class="col-sm-10 col-sm-offset-2">
-				<button type="submit" class="btn btn-primary">${4:Submit}</button>
+				<button type="submit" class="btn btn-primary">${6:Envoyer}</button>
 			</div>
-		</div>
+		</div><!--/.form-group -->
 </form>
 ]]></content>
 	<tabTrigger>bs3-form:horizontal</tabTrigger>
-<description>Bootstrap 3 - Formulaire - horizontal</description>
+<description>Bootstrap 3 - Formulaire - Horizontal</description>
 </snippet>

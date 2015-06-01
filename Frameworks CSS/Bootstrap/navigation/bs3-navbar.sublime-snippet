@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <nav class="navbar navbar-default" role="navigation">
 	<!-- Brand and toggle get grouped for better mobile display -->
 	<div class="navbar-header">
@@ -43,5 +40,5 @@
 </nav>
 ]]></content>
 	<tabTrigger>bs3-navbar</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Navbar - xxx</description>
 </snippet>

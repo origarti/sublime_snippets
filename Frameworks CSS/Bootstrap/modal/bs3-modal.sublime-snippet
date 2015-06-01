@@ -1,27 +1,42 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
-${1:<a class="btn btn-primary" data-toggle="modal" href='#${2:modal-id}'>Trigger modal</a>}
-<div class="modal fade" id="${2:modal-id}">
+	<content><![CDATA[${3:
+${1:<!--
+    # Modal : Ouvrir une boîte modale / Lightbox
+    # Documentation : ${2:http://getbootstrap.com/javascript/#modals}
+	1 - Usage :
+		Déclencher la boîte modale :
+		[data-toggle="modal"] sur l'élément permettant déclenchement de la modal
+		[href] doit contenir l'ID de la modal à ouvrir
+
+		La Boîte modale et son accessibilité :
+		Ajouter un role="dialog" à .modal
+		aria-labelledby="myModalLabel" attribute to reference the modal title,
+		aria-hidden="true" = Visibilité pour ARIA (enlever la modale des éléments du DOM pour les SR)
+		aria-describedby (sur .modal) = Description pour ARIA.
+		data-dismiss = Fermer la boîte modale parente.
+
+    -->
+}
+}
+${4:<a class="btn btn-primary" data-toggle="modal" href='#${5:modal-id}'>Ouvrir la Lightbox</a>}
+<div class="modal fade" id="${5:modal-id}" role="dialog" aria-labelledby="${6:Mon titre}" aria-hidden="true" aria-describedby="${7:Description de la modale}">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">${3:Modal title}</h4>
+				<h4 class="modal-title">${6:Mon titre}</h4>
 			</div>
 			<div class="modal-body">
 				${0}
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">${4:Close}</button>
-				<button type="button" class="btn btn-primary">${5:Save changes}</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">${8:Fermer}</button>
+				<button type="button" class="btn btn-primary">${9:Sauvegarder}</button>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 ]]></content>
 	<tabTrigger>bs3-modal</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Modal / Popup</description>
 </snippet>

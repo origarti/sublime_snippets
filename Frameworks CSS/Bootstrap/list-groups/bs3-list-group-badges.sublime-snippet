@@ -1,23 +1,27 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
+	<content><![CDATA[${3:
+${1:<!--
+    # List-Group : Faire des listes flexibles complexes
+    # Documentation : ${2:http://getbootstrap.com/components/#list-group}
+    .disabled = désactive un des items de la liste
+    -->
+}
+}
 <ul class="list-group">
 	<li class="list-group-item">
-		<span class="badge">5</span>
-		Item 1
+		${4:<span class="badge">${5:5}</span>}
+		${6:Item 1}
 	</li>
 	<li class="list-group-item">
-		<span class="badge">10</span>
-		Item 2
+		${6:<span class="badge">${7:10}</span>}
+		${8:Item 2}
 	</li>
 	<li class="list-group-item">
-		<span class="badge">15</span>
-		Item 3
+		${9:<span class="badge">${10:15}</span>}
+		${11:Item 3}
 	</li>
 </ul>
 ]]></content>
 	<tabTrigger>bs3-list-group:badges</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - List-Group - + Badges</description>
 </snippet>

@@ -1,10 +1,14 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Icônes (span)
-	URL : http://getbootstrap.com/components/#glyphicons
-	-->
-<span class="glyphicon glyphicon-${1:icon}"></span>
+${4:
+${1:<!--
+    # Icones (Glyphicons)
+    # Documentation : ${2:http://getbootstrap.com/components/#glyphicons}
+    -->
+}
+}
+<span class="glyphicon glyphicon-${3:icon}"></span>
 ]]></content>
 	<tabTrigger>bs3-icon:glyphicon</tabTrigger>
-<description>Bootstrap 3 - Icônes (span)</description>
+<description>Bootstrap 3 - Glyphicon / Icons</description>
 </snippet>

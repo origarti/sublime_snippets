@@ -1,13 +1,10 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <ul class="pager">
-	<li><a href="#">Previous</a></li>
-	<li><a href="#">Next</a></li>
+    <li><a href="#">&larr; ${1:Précédent}</a></li>
+    <li><a href="#">${2:Suivant} &rarr;</a></li>
 </ul>
 ]]></content>
 	<tabTrigger>bs3-pager</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Pagination - Pager - Simple</description>
 </snippet>

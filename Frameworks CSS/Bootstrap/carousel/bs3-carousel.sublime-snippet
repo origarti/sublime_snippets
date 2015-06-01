@@ -1,31 +1,26 @@
 <snippet>
     <content><![CDATA[
-    <!-- Documentation : Bootstrap 3 - Carousel / Slider (JS)
-    URL : http://getbootstrap.com/javascript/#carousel
-    Notes : 
-        - Les carousels imbriqués ne sont pas supportés
-        - La class ".active" doit être ajoutée à une des slides (et puces de navigation (?). Sinon le slider ne sera pas visible
-        - Transitions non prises en compte par IE8 et IE9
-        - Il est possible d'ajouter une légende dans un élément ".carousel-caption" dans ".item"
+${1:<!--
+    # Réaliser un carousel avec 3 Items. Les carousels imbriqués ne sont pas supportés
+      Il faut attribuer .active à une des items, sinon le carousel ne sera pas visible.
+    # Documentation : ${2:http://getbootstrap.com/javascript/#carousel}
     -->
-
-    
-<div id="${1:carousel-id}" class="carousel slide" data-ride="carousel">
-     <!-- Puces de navigation -->
+}
+<div id="${3:carousel-id}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#${1:carousel-id}" data-slide-to="0" class=""></li>
-        <li data-target="#${1:carousel-id}" data-slide-to="1" class=""></li>
-        <li data-target="#${1:carousel-id}" data-slide-to="2" class="active"></li>
+        <li data-target="#${3:carousel-id}" data-slide-to="0" class=""></li>
+        <li data-target="#${3:carousel-id}" data-slide-to="1" class=""></li>
+        <li data-target="#${3:carousel-id}" data-slide-to="2" class="active"></li>
     </ol>
-    <!-- Conteneur des slides -->
     <div class="carousel-inner">
         <div class="item">
             <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Example headline.</h1>
-                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <h1>${4:Titre 1}</h1>
+                    <p>${7:Note: Si vous regardez cette page via une url commençant par file;//, l'icône Glyphicon des boutons "Suivant" et "Précédent" risquent de ne pas s'afficher correctement à cause d'une sécurité du navigateur}</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Inscrivez-vous</a></p>
                 </div>
             </div>
         </div>
@@ -33,9 +28,9 @@
             <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <h1>${5:Titre 2}</h1>
+                    <p>${8:Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.}</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>
                 </div>
             </div>
         </div>
@@ -43,18 +38,17 @@
             <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <h1>${6:Titre 3}</h1>
+                    <p>${9:Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.}</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Parcourir la librairie</a></p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Chevrons de navigation -->
-    <a class="left carousel-control" href="#${1:carousel-id}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#${1:carousel-id}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
+    <a class="left carousel-control" href="#${3:carousel-id}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#${3:carousel-id}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- ${3:carousel-id} /.carousel.slide-->
 ]]></content>
     <tabTrigger>bs3-carousel</tabTrigger>
-<description>Bootstrap 3 - Carousel / Slider (JS)</description>
+<description>Bootstrap 3 - Carousel / Slider / Diaporama</description>
 </snippet>

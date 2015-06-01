@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <nav class="navbar navbar-inverse">
 	<a class="navbar-brand" href="#">${1:Title}</a>
 	<ul class="nav navbar-nav">
@@ -16,5 +13,5 @@
 </nav>
 ]]></content>
 	<tabTrigger>bs3-navbar:inverse</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Navbar - Négatif / inverse</description>
 </snippet>

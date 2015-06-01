@@ -1,12 +1,16 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
+	<content><![CDATA[${3:
+${1:<!--
+    # WELL : Mettre un élément en valeur dans un cadre gris.
+    # Documentation : ${2:http://getbootstrap.com/components/#wells}
+    .well = Taille par défaut
+    -->
+}
+}
 <div class="well">
 	${0}
 </div>
 ]]></content>
 	<tabTrigger>bs3-well</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Well</description>
 </snippet>

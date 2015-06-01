@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
 <!DOCTYPE html>
 <html lang="${1}">
 	<head>
@@ -12,7 +9,7 @@
 		<title>${2:Title Page}</title>
 
 		<!-- Bootstrap CSS -->
-		<link href="${3://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css}" rel="stylesheet">
+		<link href="${3://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css}" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,10 +24,10 @@
 		<!-- jQuery -->
 		<script src="${4://code.jquery.com/jquery.js}"></script>
 		<!-- Bootstrap JavaScript -->
-		<script src="${5://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js}"></script>
+		<script src="${5://netdna.bootstrapcdn.com/bootstrap/${6:3.3.4}/js/bootstrap.min.js}"></script>
 	</body>
 </html>
 ]]></content>
 	<tabTrigger>bs3-template:html5</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Template - HTML 5 </description>
 </snippet>

@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Toolbar
-	URL : http://getbootstrap.com/css/#buttons
-	-->
 <div class="btn-toolbar">
 	<div class="btn-group"></div>
 	<div class="btn-group"></div>
@@ -10,5 +7,5 @@
 </div>
 ]]></content>
 	<tabTrigger>bs3-toolbar</tabTrigger>
-<description>Bootstrap 3 - Boutons - Toolbar</description>
+<description>Bootstrap 3 - Bouton - Toolbar - Group</description>
 </snippet>

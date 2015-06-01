@@ -1,14 +1,11 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - element
-	http://getbootstrap.com/css/#forms
-	-->
 <div class="form-group">
-	<div class="col-sm-${1:10} col-offset-${2:2}">
+	<div class="col-sm-10 col-offset-${2:2}">
 		<input type="reset" value="${3:Reset}" class="btn btn-default">
 	</div>
 </div>
 ]]></content>
 	<tabTrigger>bs3-input:reset:h</tabTrigger>
-<description>Bootstrap 3 - Formulaire - element</description>
+<description>Bootstrap 3 - Formulaire - Input - Reset - Horizontal</description>
 </snippet>

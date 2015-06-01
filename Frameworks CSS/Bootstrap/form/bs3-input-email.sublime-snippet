@@ -1,10 +1,7 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - input email
-	http://getbootstrap.com/css/#forms
-	-->
-<input type="email" name="${1}" id="input${1/(\w+)/\u\1/g}" class="form-control" ${2:value="${3}"} ${4:required="required"} ${5:title="${6}"}>
+<input type="email" name="" id="${2}" class="form-control" ${3:value="${4}"} ${5:required} ${6:title="${7}"} ${8:placeholder="${9}"}>
 ]]></content>
 	<tabTrigger>bs3-input:email</tabTrigger>
-<description>Bootstrap 3 - Formulaire - input email</description>
+<description>Bootstrap 3 - Formulaire - Input - Email - Simple</description>
 </snippet>

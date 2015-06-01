@@ -1,21 +1,26 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - Défaut
-	http://getbootstrap.com/css/#forms
-	-->
-<form action="${1}" method="${2:POST}" role="form">
-	<legend>${3:Form title}</legend>
+${1:<!--
+    # Formulaire
+    # Documentation : ${2:http://getbootstrap.com/css/#forms}
+    1 - Usage
+    .form-control = défini par défaut à width:100%
+    .form-group = Englobe label + input
+    -->
+}
+<form action="${3}" method="${4:POST}" role="form">
+	<legend>${5:Form title}</legend>
 
 	<div class="form-group">
-		<label for="">${4:label}</label>
-		<input type="text" class="form-control" id="" placeholder="Input field">
-	</div>
+		<label for="${4}">${5:Label}</label>
+		<input type="${6:Text}" class="form-control" id="${4}" placeholder="${7:Placeholder}">
+	</div><!-- /.form-control -->
 
 	${0}
 
-	<button type="submit" class="btn btn-primary">${5:Submit}</button>
+	<button type="submit" class="btn btn-primary">${8:Envoyer}</button>
 </form>
 ]]></content>
 	<tabTrigger>bs3-form</tabTrigger>
-<description>Bootstrap 3 - Formulaire - Défaut</description>
+<description>Bootstrap 3 - Formulaire</description>
 </snippet>

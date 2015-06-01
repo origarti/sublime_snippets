@@ -1,10 +1,7 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Formulaire - element
-	http://getbootstrap.com/css/#forms
-	-->
 <button type="submit" class="btn btn-primary">${5:Submit}</button>
 ]]></content>
 	<tabTrigger>bs3-input:submit</tabTrigger>
-<description>Bootstrap 3 - Formulaire - element</description>
+<description>Bootstrap 3 - Formulaire - xxx</description>
 </snippet>

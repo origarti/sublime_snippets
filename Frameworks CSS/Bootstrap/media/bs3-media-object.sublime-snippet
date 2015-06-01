@@ -1,18 +1,32 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
+	<content><![CDATA[${3:
+${1:<!--
+    # Media-Object : Faire des listes de médias
+    # Documentation : ${2:http://getbootstrap.com/components/#media}
+
+    1 - Usage :
+    .media-list (ul) > .media (li) : Permet de faire des listes et listes imbriquées (nested) de médias
+    >> utilisation typique : Un flux de commentaires et réponses
+
+    .media-left, .media-right = Alignement Gauche / Droite
+    .media-top, .media-middle, .media-bottom = Alignement Vertical
+
+    -->
+}
+}
 <div class="media">
-	<a class="pull-left" href="${1:#}">
-		<img class="media-object" src="${2:#}" alt="${3:Image}">
+	<a class="media-left" href="${4:#}">
+		<img class="media-object" src="${5:#}" alt="${6:Image}">
 	</a>
+    <a class="media-left" href="${7:#}">
+        <img class="media-object" src="${8:#}" alt="${9:Image}">
+    </a>
 	<div class="media-body">
 		<h4 class="media-heading">${4:Media heading}</h4>
-		<p>${5:Text goes here...}</p>
+		<p>${10:Text goes here...}</p>
 	</div>
 </div>
 ]]></content>
 	<tabTrigger>bs3-media-object</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - Media - Object</description>
 </snippet>

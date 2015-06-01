@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Groupe
-	URL : http://getbootstrap.com/css/#buttons
-	-->
 <div class="btn-group">
 	<${1:button} ${2:type="button"} class="btn btn-default">Left</${1:button}>
 	<${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}>
@@ -10,5 +7,5 @@
 </div>
 ]]></content>
 	<tabTrigger>bs3-group</tabTrigger>
-<description>Bootstrap 3 - Boutons - Groupe</description>
+<description>Bootstrap 3 - Bouton - Group</description>
 </snippet>

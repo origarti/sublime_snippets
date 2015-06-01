@@ -1,15 +1,23 @@
 <snippet>
-	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - element
-	URL : http://getbootstrap.com/${1:}
-	-->
+	<content><![CDATA[${3:
+${1:<!--
+    # List-Group : Faire des listes flexibles complexes
+    # Documentation : ${2:http://getbootstrap.com/components/#list-group-custom-content}
+    1 - Usage :
+        - Ajouter une classe .active sur un item ".list-group-item" si besoin
+        - Titre de la liste : .list-group-item-heading
+        - Texte de la liste : .list-group-item-text
+        - .disabled = désactive un des items de la liste
+    -->
+}
+}
 <div class="list-group">
 	<a href="#" class="list-group-item active">
-		<h4 class="list-group-item-heading">${1:List group item heading}</h4>
-		<p class="list-group-item-text">${2:Content goes here}</p>
+		<${4:h4} class="list-group-item-heading">${5:List group item heading}</${4:h4}>
+		<p class="list-group-item-text">${6:Content goes here}</p>
 	</a>
 </div>
 ]]></content>
 	<tabTrigger>bs3-list-group:content</tabTrigger>
-<description>Bootstrap 3 - element</description>
+<description>Bootstrap 3 - List-Group - Titre + Paragraphe</description>
 </snippet>

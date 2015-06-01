@@ -1,8 +1,5 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - breadcrumbs
-	URL : http://getbootstrap.com/components/#breadcrumbs
-	-->
 <ol class="breadcrumb">
 	<li>
 		<a href="${1:#}">${2:Home}</a>
@@ -14,5 +11,5 @@
 </ol>
 ]]></content>
 	<tabTrigger>bs3-breadcrumbs</tabTrigger>
-<description>Bootstrap 3 - breadcrumbs</description>
+<description>Bootstrap 3 - Breadcrumbs</description>
 </snippet>

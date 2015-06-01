@@ -1,14 +1,10 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Documentation : Bootstrap 3 - Alerte - Danger
-	URL : http://getbootstrap.com/javascript/#alerts
-
-	-->
 <div class="alert alert-danger">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-	<strong>${1:Titre!}</strong> ${2:Contenu de l'alerte ...}
+	<strong>${1:Title!}</strong> ${2:Alert body ...}
 </div>
 ]]></content>
 	<tabTrigger>bs3-alert:danger</tabTrigger>
-<description>Bootstrap 3 - Alerte - Danger</description>
+    <description>Bootstrap 3 - Alerte - Danger</description>
 </snippet>
