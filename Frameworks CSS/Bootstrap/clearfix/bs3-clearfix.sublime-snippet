@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
 ${1:<!--
-    # Clearfix : Clearer facilement des floats en ajoutant .clearfix au parent de l'élément.
+    # Clearfix : Faire un clear facilement suite à des éléments enfants positionnés en floats en ajoutant .clearfix au parent de ces éléments.
 
     # Documentation : ${2:http://getbootstrap.com/css/#helper-classes-clearfix}
 
     1 - Usage
+
     Attribuer la classe .clearfix sur un élément parent contenant des enfants utilisants des floats.
     Cette class peut également être utililisée en tant que mixin : .clearfix() dans le .LESS
 
