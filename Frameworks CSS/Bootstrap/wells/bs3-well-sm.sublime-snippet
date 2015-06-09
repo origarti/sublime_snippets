@@ -9,9 +9,9 @@ ${1:<!--
     -->
 }
 }
-<div class="well well-${1:sm}">
+<div class="well well-${4:sm}">
 	${0}
-</div><!-- /.well well-${1:sm} -->
+</div><!-- /.well well-${4:sm} -->
 ]]></content>
 	<tabTrigger>bs3-well:sm</tabTrigger>
 <description>Bootstrap 3 - Well / Cadre - Small</description>
