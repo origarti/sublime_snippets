@@ -22,10 +22,10 @@ ${1:<!--
         <img class="media-object" src="${8:#}" alt="${9:Image}">
     </a>
 	<div class="media-body">
-		<h4 class="media-heading">${4:Media heading}</h4>
-		<p>${10:Text goes here...}</p>
-	</div>
-</div>
+		<h4 class="media-heading">${4:Un titrage}</h4>
+		<p>${10:Du texte}</p>
+	</div><!-- /.media-body -->
+</div><!-- /.media -->
 ]]></content>
 	<tabTrigger>bs3-media-object</tabTrigger>
 <description>Bootstrap 3 - Media - Object</description>
