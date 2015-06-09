@@ -12,9 +12,9 @@
 				<a href="${6:#}" class="btn btn-primary">${7:Action}</a>
 				<a href="${8:#}" class="btn btn-default">${9:Action}</a>
 			</p>
-		</div><!-- .Caption -->
-	</div><!-- .thumbnail -->
-</div>
+		</div><!-- /.caption -->
+	</div><!-- /.thumbnail -->
+</div><!-- /.col-xs-${1:3} col-sm-${1:3} col-md-${1:3} col-lg-${1:3} -->
 ]]></content>
 	<tabTrigger>bs3-thumbnail:content</tabTrigger>
 <description>Bootstrap 3 - Thumbnail / Image - Content</description>
