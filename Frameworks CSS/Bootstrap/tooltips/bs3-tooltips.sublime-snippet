@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[${3:
+${1:<!--
+    # Tooltips : Infobulle contextuelle
+    # Documentation : ${2:http://getbootstrap.com/components/#wells}
+    [data-placement] 		=		top - bottom - left - right
+    -->
+}
+}
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="${4:left}" title="Tooltip on ${4:left}">Tooltip on ${4:left}</button>
+]]></content>
+	<tabTrigger>bs3-tooltip</tabTrigger>
+<description>Bootstrap 3 - Tooltip (JS) - Basic</description>
+</snippet>
