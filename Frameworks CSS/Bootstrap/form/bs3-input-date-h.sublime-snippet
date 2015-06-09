@@ -1,11 +1,13 @@
 <snippet>
 	<content><![CDATA[
 <div class="form-group">
+
 	<label for="${1:ID_input}" class="col-sm-2 control-label">${2:Label}</label>
 	<div class="col-sm-10">
 		<input type="date" name="${3}" id="${1:ID_input}" class="form-control" ${4:value="${5}"} placeholder="${2:Votre Date}" ${6:required} ${7:title="${8}"}>
-	</div>
-</div>
+	</div><!-- /.col-sm-10 -->
+	
+</div><!-- /.form-group -->
 ]]></content>
 	<tabTrigger>bs3-input:date:h</tabTrigger>
 <description>Bootstrap 3 - Formulaire - Input - Date - Horizontal</description>
