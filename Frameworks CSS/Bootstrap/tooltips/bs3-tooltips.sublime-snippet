@@ -1,13 +1,21 @@
 <snippet>
 	<content><![CDATA[${3:
 ${1:<!--
-    # Tooltips : Infobulle contextuelle
-    # Documentation : ${2:http://getbootstrap.com/components/#wells}
-    [data-placement] 		=		top - bottom - left - right
+    # Tooltips : Une Infobulle contextuelle
+    # Documentation : ${2:http://getbootstrap.com/javascript/#tooltips}
+
+    1 - Usage 
+
+    [data-toggle] 			= 		"tooltip" [requis]
+    [data-placement] 		=		top   | bottom | left  | right
+    [data-trigger] 			=		click | hover  | focus | manual 
+    [data-html] 			= 		true ¡ false - Permet d'ajouter des balises dans le contenu de la tooltip
+    [data-show] 			= 		Timing d'apparition de la Tooltip
+    [data-hide] 			= 		Timing de disparition de la Tooltip
     -->
 }
 }
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="${4:left}" title="Tooltip on ${4:left}">Tooltip on ${4:left}</button>
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="${4:left}" data-trigger="${5:click}"  data-html="${6:true}" data-show="${7:100}" data-hide="${8:100}" title="Contenu de la tooltip">${9:Déclencher une tooltip}</button>
 ]]></content>
 	<tabTrigger>bs3-tooltip</tabTrigger>
 <description>Bootstrap 3 - Tooltip (JS) - Basic</description>

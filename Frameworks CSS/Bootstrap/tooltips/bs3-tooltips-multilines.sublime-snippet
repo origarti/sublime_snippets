@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[${3:
+${1:<!--
+    # Tooltips : Infobulle contextuelle
+    # Documentation : ${2:http://getbootstrap.com/javascript/#tooltips}
+
+    
+    Parfois, on peut vouloir ajouter une "Tooltip" à un lien qui englobe plusieurs lignes. 
+    Le comportement par défaut est de se centrer horizontalement et verticalement. 
+    Ajouter un "white-space: nowrap;" à notre ancre permet d'éviter cela.
+
+
+    1 - Usage 
+
+    [data-toggle] 			= 		"tooltip" [requis]
+    [data-placement] 		=		top   | bottom | left  | right
+    [data-trigger] 			=		click | hover  | focus | manual 
+    [data-html] 			= 		true ¡ false - Permet d'ajouter des balises dans le contenu de la tooltip
+    [data-show] 			= 		Timing d'apparition de la Tooltip
+    [data-hide] 			= 		Timing de disparition de la Tooltip
+    -->
+}
+}
+<a href="#" data-toggle="tooltip" title="Contenu de la Tooltip">Survolez-moi</a>
+
+<!-- Rendu généré par le plugin -->
+<div class="tooltip top" role="tooltip">
+  <div class="tooltip-arrow"></div><!-- /.tooltip-arrow --> 
+  <div class="tooltip-inner">
+    Du texte
+  </div><!-- /.tooltip-inner --> 
+</div><!-- /.tooltip.top --> 
+
+]]></content>
+	<tabTrigger>bs3-tooltip</tabTrigger>
+<description>Bootstrap 3 - Tooltip (JS) - Multilines</description>
+</snippet>
