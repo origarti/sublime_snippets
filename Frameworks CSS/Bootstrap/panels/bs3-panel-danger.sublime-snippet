@@ -2,12 +2,12 @@
 	<content><![CDATA[
 <div class="panel panel-${1:danger}">
 	  <div class="panel-heading">
-			<h3 class="panel-title">Titre</h3>
+			<h3 class="panel-title">${2:Titre}</h3>
 	  </div>
 	  <div class="panel-body">
-			${2:Contenu du panel
+			${3:Contenu du panel}
 	  </div>
-</div>
+</div><!-- /.panel panel-${1:danger} -->
 ]]></content>
 	<tabTrigger>bs3-panel:danger</tabTrigger>
 <description>Bootstrap 3 - Panels - Danger</description>

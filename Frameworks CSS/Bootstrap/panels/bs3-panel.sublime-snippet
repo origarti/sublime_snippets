@@ -4,8 +4,8 @@
 	<div class="panel-body">
 	   ${2:Basic panel example}
 	</div>
-</div>
+</div><!-- /.panel panel-${1:default} -->
 ]]></content>
 	<tabTrigger>bs3-panel</tabTrigger>
-<description>Bootstrap 3 - Panels - xxx</description>
+<description>Bootstrap 3 - Panels - Default</description>
 </snippet>

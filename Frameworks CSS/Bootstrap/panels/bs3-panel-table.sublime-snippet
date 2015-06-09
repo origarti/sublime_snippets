@@ -2,32 +2,34 @@
 	<content><![CDATA[
 <div class="panel panel-${1:default}">
 	<!-- Default panel contents -->
-	<div class="panel-heading">Panel heading</div>
-		<div class="panel-body">
-			<p>Text goes here...</p>
-		</div>
+	<div class="panel-heading">
+		${2:Titrage du panneau}
+	</div>
+	<div class="panel-body">
+		${3:<p>Du texte ici</p>}
+	</div>
 
-		<!-- Table -->
-		<table class="table">
-			<thead>
-				<tr>
-					<th>${2:Heading 1}</th>
-				</tr>
-				<tr>
-					<th>${3:Heading 2}</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>${4:Content 1}</td>
-				</tr>
-				<tr>
-					<td>${5:Content 2}</td>
-				</tr>
-			</tbody>
-		</table>
-</div>
+	<!-- Table -->
+	<table class="table">
+		<thead>
+			<tr>
+				<th>${4:Titrage 1}</th>
+			</tr>
+			<tr>
+				<th>${5:Titrage 2}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>${6:Contenu 1}</td>
+			</tr>
+			<tr>
+				<td>${7:Contenu 2}</td>
+			</tr>
+		</tbody>
+	</table><!-- /.table -->
+</div><!-- /.panel panel-${1:default} -->
 ]]></content>
 	<tabTrigger>bs3-panel:table</tabTrigger>
-<description>Bootstrap 3 - Panels - xxx</description>
+<description>Bootstrap 3 - Panels - Panel + Tableau / Table</description>
 </snippet>
