@@ -10,7 +10,7 @@
 			<a href="#">${3:Link}</a>
 		</li>
 	</ul>
-</div>
+</div><!-- /.navbar -->
 ]]></content>
 	<tabTrigger>bs3-navbar:basic</tabTrigger>
 <description>Bootstrap 3 - Navbar - Basic (logo + 2 Liens)</description>
