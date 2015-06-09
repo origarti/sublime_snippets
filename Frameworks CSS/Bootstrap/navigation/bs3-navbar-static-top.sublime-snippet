@@ -10,8 +10,8 @@
 			<a href="#">${4:Link}</a>
 		</li>
 	</ul>
-</nav>
+</nav><!-- /.navbar navbar-default navbar-static-top -->
 ]]></content>
 	<tabTrigger>bs3-navbar:static-top</tabTrigger>
-<description>Bootstrap 3 - Navbar - xxx</description>
+<description>Bootstrap 3 - Navbar - Static top</description>
 </snippet>

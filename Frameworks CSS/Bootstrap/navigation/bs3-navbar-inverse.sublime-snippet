@@ -1,16 +1,17 @@
 <snippet>
 	<content><![CDATA[
 <nav class="navbar navbar-inverse">
+
 	<a class="navbar-brand" href="#">${1:Title}</a>
+	
 	<ul class="nav navbar-nav">
-		<li class="active">
-			<a href="#">${2:Home}</a>
-		</li>
-		<li>
-			<a href="#">${3:Link}</a>
-		</li>
+		<li class="active"><a href="#">${3:Accueil}</a></li>
+		<li><a href="#">${4:Lien 1}</a></li>
+		<li><a href="#">${5:Lien 2}</a></li>
+		<li><a href="#">${6:Lien 3}</a></li>
 	</ul>
-</nav>
+
+</nav><!-- /.navbar navbar-inverse -->
 ]]></content>
 	<tabTrigger>bs3-navbar:inverse</tabTrigger>
 <description>Bootstrap 3 - Navbar - Négatif / inverse</description>

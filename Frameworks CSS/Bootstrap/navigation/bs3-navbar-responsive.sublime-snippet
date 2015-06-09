@@ -51,7 +51,7 @@ ${1:<!--
 		<!-- /.navbar-right -->}
 
 	</div><!-- /.navbar-collapse -->
-</nav>
+</nav><!-- /.navbar navbar-default -->
 ]]></content>
 	<tabTrigger>bs3-navbar:responsive</tabTrigger>
 <description>Bootstrap 3 - Navbar - Responsive</description>

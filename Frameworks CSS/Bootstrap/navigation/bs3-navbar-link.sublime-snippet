@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<p class="navbar-text pull-${1:right}">
-	<a href="${2:#}" class="navbar-link">${3:Links}</a>
-</p>
+<p class="navbar-text ${2:pull-${1:right}}">
+	<a href="${3:#}" class="navbar-link">${4:Lien}</a>
+</p><!-- /.navbar-text ${2:pull-${1:right}} -->
 ]]></content>
 	<tabTrigger>bs3-navbar:link</tabTrigger>
-<description>Bootstrap 3 - Navbar - Link</description>
+<description>Bootstrap 3 - Navbar - Paragraphe Texte + lien</description>
 </snippet>

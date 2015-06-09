@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<p class="navbar-text">${1:Navbar text}</p>
+<p class="navbar-text">${1:Mon texte}</p>
 ]]></content>
 	<tabTrigger>bs3-navbar:text</tabTrigger>
-<description>Bootstrap 3 - Navbar - xxx</description>
+<description>Bootstrap 3 - Navbar - Text / Paragraphe</description>
 </snippet>

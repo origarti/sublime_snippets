@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<form class="navbar-form pull-${1:right}">
+<form class="navbar-form ${2:pull-${1:right}}">
 	<input type="text" style="width: 200px;">
-	<button type="submit" class="btn btn-${2:default}">${3:Submit}</button>
-</form>
+	<button type="submit" class="btn btn-${3:default}">${4:Submit}</button>
+</form><!-- /.navbar-form ${2:pull-${1:right}} -->
 ]]></content>
 	<tabTrigger>bs3-navbar:form</tabTrigger>
 <description>Bootstrap 3 - Navbar - Formulaire</description>

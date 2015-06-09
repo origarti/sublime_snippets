@@ -37,8 +37,8 @@
 			</li>
 		</ul>
 	</div><!-- /.navbar-collapse -->
-</nav>
+</nav><!-- /.navbar navbar-default -->
 ]]></content>
 	<tabTrigger>bs3-navbar</tabTrigger>
-<description>Bootstrap 3 - Navbar - xxx</description>
+<description>Bootstrap 3 - Navbar - Default</description>
 </snippet>

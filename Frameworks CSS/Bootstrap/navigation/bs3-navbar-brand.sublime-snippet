@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<a class="navbar-brand" href="${1:/}">${2:Title}</a>
+<a class="navbar-brand" href="${1:/}">${2:Titre}</a>
 ]]></content>
 	<tabTrigger>bs3-navbar:brand</tabTrigger>
 <description>Bootstrap 3 - Navbar - Logo (lien)</description>
