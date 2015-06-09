@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[${3:
 ${1:<!--
-    # Page header : Permet de combiner un H1 avec d'autres éléments imbriqués
+    # Page header : Permet de combiner un Hn avec d'autres éléments imbriqués
     # Documentation : ${2:http://getbootstrap.com/components/#page-header}
     -->
 }
 }
 <div class="page-header">
-  <h1>${1:title}<small>${2:subtext}</small></h1>
-</div>
+  <h1>${1:Titre}<small>${2:Texte sous-titre}</small></h1>
+</div><!-- /.page-header -->
 ]]></content>
 
 	<tabTrigger>bs3-page-header</tabTrigger>
