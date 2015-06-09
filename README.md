@@ -2,7 +2,7 @@
 
 ----
 ## HTML
-- [x] Premier commit fait
+- [x] Premier commit fait : Commentaire "endiv" + tabulation = "</div><!-- /.element --> "
 
 ----
 ## Frameworks CSS
