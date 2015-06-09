@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+</${1:div}><!-- /${2:#ID} ${3:.class}-->
+]]></content>
+	<tabTrigger>comend</tabTrigger>
+<description>HTML - Commentaire de fin de DIV</description>
+</snippet>
