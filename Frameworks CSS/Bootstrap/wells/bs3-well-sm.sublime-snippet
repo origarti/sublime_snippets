@@ -4,13 +4,15 @@ ${1:<!--
     # WELLS : Mettre un élément en valeur dans un cadre gris.
     # Documentation : ${2:http://getbootstrap.com/components/#wells}
     .well-sm = Cadre small
+    .well-lg = Cadre large
+    .well = Cadre par défaut
     -->
 }
 }
-<div class="well well-sm">
+<div class="well well-${1:sm}">
 	${0}
-</div>
+</div><!-- /.well well-${1:sm} -->
 ]]></content>
 	<tabTrigger>bs3-well:sm</tabTrigger>
-<description>Bootstrap 3 - Well - Small</description>
+<description>Bootstrap 3 - Well / Cadre - Small</description>
 </snippet>

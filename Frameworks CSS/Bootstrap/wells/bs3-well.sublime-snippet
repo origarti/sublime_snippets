@@ -3,14 +3,16 @@
 ${1:<!--
     # WELL : Mettre un élément en valeur dans un cadre gris.
     # Documentation : ${2:http://getbootstrap.com/components/#wells}
-    .well = Taille par défaut
+    .well-sm = Cadre small
+    .well-lg = Cadre large
+    .well = Cadre par défaut
     -->
 }
 }
 <div class="well">
 	${0}
-</div>
+</div><!-- /.well -->
 ]]></content>
 	<tabTrigger>bs3-well</tabTrigger>
-<description>Bootstrap 3 - Well</description>
+<description>Bootstrap 3 - Well / Cadre</description>
 </snippet>
