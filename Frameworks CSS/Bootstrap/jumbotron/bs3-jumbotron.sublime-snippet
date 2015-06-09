@@ -13,9 +13,9 @@ ${1:<!--
 <div class="jumbotron">
 	<div class="container">
 		<h1>${4:Hello, world!}</h1>
-		<p>${5:Contents ...}</p>
+		<p>${5:Contenu ...}</p>
 		<p>
-			${6:<a class="btn btn-primary btn-lg">${7:Learn more}</a>}
+			${6:<a class="btn btn-primary btn-lg">${7:En savoir plus}</a>}
 		</p>
 	</div><!-- /.container -->
 </div><!-- /.jumbotron -->
