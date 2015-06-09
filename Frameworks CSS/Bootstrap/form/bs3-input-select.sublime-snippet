@@ -1,9 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<select name="" id="${1:ID_champ}" class="form-control">
-	<option value="">${2:-- Select One --}</option>
+<select name="${0:name}" id="${1:ID_champ}" class="form-control">
+	${4:<option value="${3}">${2:-- Option 1 --}</option>}
+	${7:<option value="${6}">${5:-- Option 2 --}</option>}
+	${10:<option value="${9}">${8:-- Option 3 --}</option>}
+	${13:<option value="${12}">${11:-- Option 4 --}</option>}
 </select>
 ]]></content>
 	<tabTrigger>bs3-input:select</tabTrigger>
-<description>Bootstrap 3 - Formulaire - xxx</description>
+<description>Bootstrap 3 - Formulaire - Select</description>
 </snippet>

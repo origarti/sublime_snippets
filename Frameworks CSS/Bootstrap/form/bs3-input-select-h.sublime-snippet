@@ -3,12 +3,12 @@
 <div class="form-group">
 	<label for="${1:ID_champ}" class="col-sm-2 control-label">${2:Label}</label>
 	<div class="col-sm-10">
-		<select name="" id="${1:ID_champ}" class="form-control">
-			<option value="">${4:-- Select One --}</option>
+		<select name="" id="${1:ID_champ}" class="form-control" ${3:required}>
+			<option value="">${0}</option>
 		</select>
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>bs3-input:select:h</tabTrigger>
-<description>Bootstrap 3 - Formulaire - xxx</description>
+	<tabTrigger>bs3-input-select:h</tabTrigger>
+<description>Bootstrap 3 - Formulaire - Select - Horizontal</description>
 </snippet>
