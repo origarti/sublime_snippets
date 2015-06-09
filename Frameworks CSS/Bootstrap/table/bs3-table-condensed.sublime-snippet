@@ -11,8 +11,8 @@
 			<td></td>
 		</tr>
 	</tbody>
-</table>
+</table><!-- /.table table-condensed ${1:table-hover} -->
 ]]></content>
 	<tabTrigger>bs3-table:condensed</tabTrigger>
-<description>Bootstrap 3 - xxx</description>
+<description>Bootstrap 3 - Table - Condensed</description>
 </snippet>
