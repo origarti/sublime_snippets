@@ -3,7 +3,7 @@
 <ul class="pager">
     <li><a href="#">&larr; ${1:Précédent}</a></li>
     <li><a href="#">${2:Suivant} &rarr;</a></li>
-</ul>
+</ul><!-- /.pager -->
 ]]></content>
 	<tabTrigger>bs3-pager</tabTrigger>
 <description>Bootstrap 3 - Pagination - Pager - Simple</description>

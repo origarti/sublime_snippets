@@ -8,7 +8,7 @@
 	<li><a href="#">4</a></li>
 	<li><a href="#">5</a></li>
 	<li><a href="#">&raquo;</a></li>
-</ul>
+</ul><!-- /.pagination -->
 ]]></content>
 	<tabTrigger>bs3-pagination</tabTrigger>
 <description>Bootstrap 3 - Pagination - Default</description>
