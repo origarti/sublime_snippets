@@ -4,8 +4,8 @@
 	<li class="list-group-item">Item 1</li>
 	<li class="list-group-item">Item 2</li>
 	<li class="list-group-item">Item 3</li>
-</ul>
+</ul><!-- /.list-group -->
 ]]></content>
 	<tabTrigger>bs3-list-group</tabTrigger>
-<description>Bootstrap 3 - xxx</description>
+<description>Bootstrap 3 - List-group</description>
 </snippet>
