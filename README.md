@@ -2,7 +2,7 @@
 
 ----
 ## HTML
-- [x] Premier commit fait : Commentaire "endiv" + tabulation = "</div><!-- /.element --> "
+- [x] Commentaires
 
 ----
 ## Frameworks CSS
@@ -45,7 +45,7 @@
 - [ ] Tooltips (JS)  - http://getbootstrap.com/javascript/#tooltips - **A faire**
 
 ### Foundation 5.5 (en cours)
-
+Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
 ####Todo :
 - [ ] .row autour de la plupart des composants      - **A faire**
 - [ ] Nettoyer Indentation et tabulations           - **En cours**
@@ -55,6 +55,9 @@
 - [ ] Documenter Joyride (JS)                       - **En cours**
 - [ ] Documenter Formulaires (CSS)                  - **En cours**
 
+----
+## JQuery 
+- [x] Premier commit fait
 
 ----
 ## CMS

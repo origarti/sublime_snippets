@@ -38,7 +38,7 @@
 - [ ] Tooltips (JS)  - http://getbootstrap.com/javascript/#tooltips - **A faire**
 
 ### Foundation 5.5 (en cours)
-
+Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
 ####Todo :
 - [ ] .row autour de la plupart des composants      - **A faire**
 - [ ] Nettoyer Indentation et tabulations           - **En cours**
