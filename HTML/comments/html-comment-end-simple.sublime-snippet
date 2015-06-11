@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<!-- /${0:.}${1} -->
+]]></content>
+	<tabTrigger>endcom</tabTrigger>
+<description>HTML - Commentaire de fin (simple)</description>
+</snippet>
