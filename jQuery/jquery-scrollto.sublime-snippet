@@ -4,7 +4,7 @@
 	}, ${2:500});
 return false;]]>
 </content>
-    <tabTrigger>jquery:scrollto</tabTrigger>
+    <tabTrigger>jquery_scrollto</tabTrigger>
     <scope>source.js</scope>
     <description>JQuery - Scroll To</description>
 </snippet>

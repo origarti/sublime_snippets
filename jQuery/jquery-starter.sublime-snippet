@@ -4,10 +4,10 @@
 	// Fonction à lancer une fois la page chargée
 	}
 	init();
-	console.log('Prêt à démarrer !');
+	console.log('${1:Prêt à démarrer !}');
 });]]>
 </content>
-    <tabTrigger>jquery:start</tabTrigger>
+    <tabTrigger>jquery_start</tabTrigger>
     <scope>source.js</scope>
-    <description>Document ready</description>
+    <description>JQuery - Start - Document ready</description>
 </snippet>
