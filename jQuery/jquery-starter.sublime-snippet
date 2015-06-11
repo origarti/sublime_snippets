@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[\$(document).ready(function(){
+	function init(){
+	// Fonction à lancer une fois la page chargée
+	}
+	init();
+	console.log('Prêt à démarrer !');
+});]]>
+</content>
+    <tabTrigger>jquery:start</tabTrigger>
+    <scope>source.js</scope>
+    <description>Document ready</description>
+</snippet>

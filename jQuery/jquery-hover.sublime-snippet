@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[\$('${1:selecteur}').on('hover', function(){
+	${2:// Mon évènement au survol}
+}, function(){
+	${3:// Mon évènement au "désurvol"}	
+});]]>
+</content>
+    <tabTrigger>jquery:hover</tabTrigger>
+    <scope>source.js</scope>
+    <description>JQuery - On Hover</description>
+</snippet>

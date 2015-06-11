@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[\$('${1:.selecteur}').css('${2:propriété}', '${3:valeur}');]]>
+</content>
+    <tabTrigger>jquery:css</tabTrigger>
+    <scope>source.js</scope>
+    <description>JQuery - CSS(propriété, valeur)</description>
+</snippet>

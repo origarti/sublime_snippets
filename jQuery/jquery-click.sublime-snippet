@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[\$('${1:selecteur}').on('click', function(){
+	${2:// Mon évènement On Click}
+});]]>
+</content>
+    <tabTrigger>jquery:click</tabTrigger>
+    <scope>source.js</scope>
+    <description>JQuery - On Click</description>
+</snippet>
