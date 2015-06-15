@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+${1:<!--
+	# Dropdown - Menu déroulant contextuel
+    # Documentation: ${2:http://getbootstrap.com/javascript/#dropdowns}
+
+    1 - Usage :
+	-  .open sur le parent ".dropdown" active l'ouverture de l'élément déroulant
+	-  Ajouter un [data-toggle="dropdown"] à un lien ou un bouton pour déclencher l'élément déroulant.
+	-  Sur mobile : .dropdown-backdrop est rajouté afin de pouvoir déclencher la fermeture de l'élément déroulant au "tap".
+	Cela signifie que basculer d'un élément déroulant à un autre requière un "tap" supplémentaire sur supports tactiles.
+	
+	- Pour conserver l'URL d'un lien, utiliser un [data-target] plutôt qu'un [href="#"] 
+
+}
+
+div class="dropdown ${4:open}">
+  <a href="${5:#}" data-toggle="dropdown" id="${6:dropdown_id}" data-target="${7:#}" aria-haspopup="true" role="button" aria-expanded="false">
+    ${8:Intitulé du lien}
+    <span class="caret"></span>
+  </a><!-- #${6:dropdown_id} -->
+
+  <ul class="dropdown-menu" role="menu" aria-labelledby="${6:dropdown_id}">
+    <li>${9:1}</li>
+    <li>${10:2}</li>
+    <li>${11:3}</li>
+  </ul><!-- /.dropdown-menu -->
+
+</div><!-- /.dropdown ${4:open} -->
+]]></content>
+	<tabTrigger>bs3-dropdown:link</tabTrigger>
+<description>Bootstrap 3 - Dropdown / Déroulant sur un Lien</description>
+</snippet>
