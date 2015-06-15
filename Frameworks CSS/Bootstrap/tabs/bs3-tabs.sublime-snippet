@@ -1,0 +1,84 @@
+<snippet>
+	<content><![CDATA[${4:
+${1:<!--
+    # Tabs (JS) : Système d'onglets à déclencher au click. 
+    # Documentation : ${2:http://getbootstrap.com/javascript/#tabs}
+
+    1 - Usage 
+
+		// A - Navigation des onglets
+			.nav.nav-tabs        	    =       Requis - [parent - <ul>]
+		ou  .nav.nav-pills   			= 		Remplace les onglets par des boutons légèrement arrondis. 
+
+		    [data-toggle="tab"]     	=       Requis - [enfant -  li > a] - [href] doit désigner l'ID de l'onglet correspondant*
+		ou  [data-toggle="pill"] 		= 		Remplace les onglets par des boutons légèrement arrondis.      
+
+	    // B - Contenu des onglets
+		    .tab-content        	    =       Requis - [parent - <div>]
+		    .tab-pane     				=       Requis - [enfant - <div>] - requière un ID*
+			.fade 						=		Facultatif - [enfant - <div.tab-pane>] - Ajoute un effet de transition. 
+												Le premier .fade doit également avoir une classe .in
+    
+
+    2 - Notes
+    
+	    Il est possible de remplacer un <li [data-toggle=tab/pill] classique par un élément déroulant (Dropdown)
+	    
+	    Exemple :
+		
+	    ${3:<li role="presentation" class="dropdown">
+	        <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
+	          <li><a href="#dropdown1" tabindex="-1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1" aria-expanded="false">@fat</a></li>
+	          <li><a href="#dropdown2" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2" aria-expanded="false">@mdo</a></li>
+	        </ul>
+	    </li>}
+-->
+}
+}
+
+<div role="tabpanel">
+  
+	<ul class="nav nav-tabs" role="tablist">
+	    <li role="presentation" class="active"><a href="#${5:tab1}" aria-controls="#${5:tab1}" role="tab" data-toggle="tab">${6:Premier onglet}</a></li>
+	    <li role="presentation"><a href="#${7:tab2}" aria-controls="#${7:tab2}" role="tab" data-toggle="tab">${8:Deuxième Onglet}</a></li>
+	    <li role="presentation"><a href="#${9:tab3}" aria-controls="#${9:tab3}" role="tab" data-toggle="tab">${10:Troixième onglet}</a></li>
+	    <li role="presentation"><a href="#${11:tab4}" aria-controls="#${11:tab4}" role="tab" data-toggle="tab">${12:Quatrième onglet}</a></li>
+	</ul><!-- /nav nav-tabs -->
+
+	  
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active ${17:fade in}" id="${5:tab1}">
+			${13: Contenu de ${6:Premier onglet}}
+		</div><!-- /#${5:tab1} .tab-pane  ${17:fade in}-->
+		<div role="tabpanel" class="tab-pane ${17:fade}" id="${7:tab2}">
+			${14: Contenu de ${8:Deuxième Onglet}}
+		</div><!-- /#${7:tab2} .tab-pane ${17:fade}-->
+		<div role="tabpanel" class="tab-pane ${17:fade}" id="${9:tab3}">
+			${15: Contenu de ${10:Troixième onglet}}
+		</div><!-- /#${9:tab3} .tab-pane ${17:fade}-->
+		<div role="tabpanel" class="tab-pane ${17:fade}" id="${11:tab4}">
+			${16: Contenu de ${12:Quatrième onglet}}
+		</div><!-- /#${11:tab4} .tab-pane ${17:fade}-->
+	</div><!-- /.tab-content -->
+
+</div><!-- /[role=tabpanel] (conseillé) -->
+
+
+
+Fade effect
+
+To make tabs fade in, add .fade to each .tab-pane. The first tab pane must also have .in to properly fade in initial content.
+
+Copy
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="home">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+</div>
+
+]]></content>
+<tabTrigger>bs3-tabs</tabTrigger>
+<description>Bootstrap 3 - Tabs (JS) / Onglet </description>
+</snippet>
