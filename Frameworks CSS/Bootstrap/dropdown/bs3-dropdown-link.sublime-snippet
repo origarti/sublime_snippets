@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+	<content><![CDATA[${3:
 ${1:<!--
 	# Dropdown - Menu déroulant contextuel
     # Documentation: ${2:http://getbootstrap.com/javascript/#dropdowns}
@@ -12,7 +12,7 @@ ${1:<!--
 	
 	- Pour conserver l'URL d'un lien, utiliser un [data-target] plutôt qu'un [href="#"] 
 
-}
+}}
 
 div class="dropdown ${4:open}">
   <a href="${5:#}" data-toggle="dropdown" id="${6:dropdown_id}" data-target="${7:#}" aria-haspopup="true" role="button" aria-expanded="false">

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+	<content><![CDATA[${3:
 ${1:<!--
 	# Dropdown - Menu déroulant contextuel
     # Documentation: ${2:http://getbootstrap.com/javascript/#dropdowns}
@@ -10,10 +10,9 @@ ${1:<!--
     	-  Ajouter un [data-toggle="dropdown"] à un lien ou un bouton pour déclencher l'élément déroulant.
     	-  Sur mobile : .dropdown-backdrop est rajouté afin de pouvoir déclencher la fermeture de l'élément déroulant au "tap".
     	                Cela signifie que basculer d'un élément déroulant à un autre requière un "tap" supplémentaire sur supports tactiles.
-    	
-    	
 
-}
+}}
+
 
 <div class="dropdown">
   <button id="${4:dropdown_id}" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -28,6 +27,6 @@ ${1:<!--
 
 </div><!-- /.dropdown -->
 ]]></content>
-	<tabTrigger>bs3-dropdown</tabTrigger>
+<tabTrigger>bs3-dropdown</tabTrigger>
 <description>Bootstrap 3 - Dropdown / Déroulant - Bouton</description>
 </snippet>
