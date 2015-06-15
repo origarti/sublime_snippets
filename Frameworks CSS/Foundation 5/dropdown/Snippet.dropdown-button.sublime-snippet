@@ -2,17 +2,16 @@
   <content><![CDATA[
 ${3:${1:<!--
 	# Dropdown (JS) - Menu contextuel
-	# Documentation : ${2:lien}
+	# Documentation : ${2:http://foundation.zurb.com/docs/components/dropdown.html}
 
       1 - Usage
       [data-options]    =    is_hover:true; 
                         =    hover_timeout:5000;
                         =    align:left | right | top | bottom;
 
--->
-<!-- Size Classes: [tiny small medium large] -->
-<!-- Color Classes: [secondary alert success] -->
-<!-- Radius Classes: [radius round] -->
+Taille   : [tiny small medium large] 
+Couleurs : [secondary alert success] 
+Arrondis : [radius round] -->
 }}
 
 
