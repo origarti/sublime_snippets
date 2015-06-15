@@ -30,14 +30,16 @@
 - **Page Header** - Générer un titre et son sous-titrage harmonieux - http://getbootstrap.com/components/#page-header
 - **Pagination** - http://getbootstrap.com/components/#pagination
 - **Panels** - Un cadre basique pour mettre un message en valeur - http://getbootstrap.com/components/#panels
+- **Responsive embed**  - Rendre responsive le contenu d'une balise <iframe> / <object> / <embed> / <video> - http://getbootstrap.com/components/#responsive-embed
 - **Table** - Tableau HTML (responsive) - http://getbootstrap.com/css/#tables
 - **Tooltips (JS)** - Une infobulle contextuelle - http://getbootstrap.com/javascript/#tooltips
 - **Wells** - Un cadre sombre basique pour mettre un élément en valeur - http://getbootstrap.com/components/#wells
 
 ####Todo :
-##### CSS
-- [X]  - **A faire**
-- [ ] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **A faire**
+##### CSS  **Terminé**
+- [X] Dropdown - **Terminé**
+- [X] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **Terminé**
+- [ ] Tests aléatoires de fiabilité - **En cours**
 
 ##### JS
 - [ ] Afix (JS)  - http://getbootstrap.com/javascript/#affix - **A faire**
