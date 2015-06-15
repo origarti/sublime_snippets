@@ -30,6 +30,7 @@
 - **Pagination** - http://getbootstrap.com/components/#pagination
 - **Panels** - Un cadre basique pour mettre un message en valeur - http://getbootstrap.com/components/#panels
 - **Table** - Tableau HTML (responsive) - http://getbootstrap.com/css/#tables
+- **Tooltips (JS)** - Une infobulle contextuelle - http://getbootstrap.com/javascript/#tooltips
 - **Wells** - Un cadre sombre basique pour mettre un élément en valeur - http://getbootstrap.com/components/#wells
 
 ####Todo :
@@ -42,7 +43,7 @@
 - [ ] Popover (JS)  - http://getbootstrap.com/javascript/#popover - **A faire**
 - [ ] ScrollSpy (JS) - http://getbootstrap.com/javascript/#scrollspy - **A faire**
 - [ ] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **A faire**
-- [ ] Tooltips (JS)  - http://getbootstrap.com/javascript/#tooltips - **A faire**
+- [X] Tooltips (JS)  -  - **A faire**
 
 ### Foundation 5.5 (en cours)
 Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
