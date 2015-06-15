@@ -23,7 +23,7 @@
 - **Page Header** - Générer un titre et son sous-titrage harmonieux - http://getbootstrap.com/components/#page-header
 - **Pagination** - http://getbootstrap.com/components/#pagination
 - **Panels** - Un cadre basique pour mettre un message en valeur - http://getbootstrap.com/components/#panels
-- **Responsive embed**  - Rendre responsive le contenu d'une balise <iframe> / <object> / <embed> / <video> - http://getbootstrap.com/components/#responsive-embed
+- **Responsive embed**  - Rendre responsive le contenu d'une balise iframe / object / embed / video - http://getbootstrap.com/components/#responsive-embed
 - **Table** - Tableau HTML (responsive) - http://getbootstrap.com/css/#tables
 - **Tab (JS)**  - Système d'onglets - http://getbootstrap.com/javascript/#tabs
 - **Tooltips (JS)** - Une infobulle contextuelle - http://getbootstrap.com/javascript/#tooltips
