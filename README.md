@@ -32,6 +32,7 @@
 - **Panels** - Un cadre basique pour mettre un message en valeur - http://getbootstrap.com/components/#panels
 - **Responsive embed**  - Rendre responsive le contenu d'une balise <iframe> / <object> / <embed> / <video> - http://getbootstrap.com/components/#responsive-embed
 - **Table** - Tableau HTML (responsive) - http://getbootstrap.com/css/#tables
+- **Tab (JS)**  - Système d'onglets - http://getbootstrap.com/javascript/#tabs
 - **Tooltips (JS)** - Une infobulle contextuelle - http://getbootstrap.com/javascript/#tooltips
 - **Wells** - Un cadre sombre basique pour mettre un élément en valeur - http://getbootstrap.com/components/#wells
 
@@ -39,13 +40,12 @@
 ##### CSS  **Terminé**
 - [X] Dropdown - **Terminé**
 - [X] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **Terminé**
-- [ ] Tests aléatoires de fiabilité - **En cours**
 
 ##### JS
 - [ ] Afix (JS)  - http://getbootstrap.com/javascript/#affix - **A faire**
 - [ ] Popover (JS)  - http://getbootstrap.com/javascript/#popover - **A faire**
 - [ ] ScrollSpy (JS) - http://getbootstrap.com/javascript/#scrollspy - **A faire**
-- [ ] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **A faire**
+- [X] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **Terminé**
 
 ### Foundation 5.5 (en cours)
 Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
