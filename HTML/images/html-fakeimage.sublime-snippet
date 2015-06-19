@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://fakeimg.pl/${1:Largeur}x${2:Hauteur}/${3:Background}/${4:Color}/?text=${5:Texte}&font=${6:lobster}" width="{1}" height="{2}" alt="${5:Texte}">
+]]></content>
+	<tabTrigger>fakeimage</tabTrigger>
+<description>HTML - Images - Fake Image</description>
+</snippet>

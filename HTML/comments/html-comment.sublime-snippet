@@ -2,6 +2,6 @@
 	<content><![CDATA[
 <!-- ${0} -->		
 ]]></content>
-	<tabTrigger>comment</tabTrigger>
-<description>HTML - Commentaire vide</description>
+	<tabTrigger>fakeimage</tabTrigger>
+<description>HTML - Images - Fake Images</description>
 </snippet>
