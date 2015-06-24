@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[${3:
+${1:<!--
+    # Responsive Embed : rendre le contenu de balises <iframe>, <embed>, <video>, ou <object> responsive
+    # Documentation : ${2:http://getbootstrap.com/components/#responsive-embed}
+
+    1 - Usage 
+    .embed responsive          =       requis - [parent conteneur]
+    .embed-responsive-4by3     =       facultatif - [parent conteneur] - Format 4/3
+    .embed-responsive-16by9    =       facultatif - [parent conteneur] - Format 16/9
+    .embed-responsive-item     =       requis - [enfant] - <iframe> | <embed> | <video> | <object>
+
+    2 - Notes
+    L'attribut frameborder="0" sur une <iframe> devient facultatif étant donné que Bootstrap outre-passe lui-même cette propriété.
+    
+    -->
+}
+}
+<div class="embed-responsive embed-responsive-${5:4by3}">
+  <iframe class="embed-responsive-item" src="${4:#}"></iframe>
+</div><!-- /.embed-responsive embed-responsive${5:4by3} -->
+
+
+]]></content>
+    <tabTrigger>bs3-responsive-embed-43</tabTrigger>
+<description>Bootstrap 3 - Responsive Embed - Iframe - 4:3</description>
+</snippet>

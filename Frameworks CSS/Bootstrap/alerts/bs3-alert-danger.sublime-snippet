@@ -3,7 +3,7 @@
 <div class="alert alert-danger">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 	<strong>${1:Title!}</strong> ${2:Alert body ...}
-</div>
+</div>${3:<!-- /.alert .alert-danger-->}
 ]]></content>
 	<tabTrigger>bs3-alert:danger</tabTrigger>
     <description>Bootstrap 3 - Alerte - Danger</description>

@@ -8,7 +8,8 @@
 - **Buttons / Buttons Dropdown / Buttons groups ** - Des boutons d'action dans tous leurs états - http://getbootstrap.com/components/#btn-groups
 - **Carousel** - Un diaporama - http://getbootstrap.com/javascript/#carousel
 - **Clearfix** - Régler des éventuels problèmes de Float / Clear - http://getbootstrap.com/css/#helper-classes-clearfix
-- **Collapse (JS) * - Déployer / Masquer du contenu - http://getbootstrap.com/javascript/#collapse
+- **Collapse (JS) ** - Déployer / Masquer du contenu - http://getbootstrap.com/javascript/#collapse
+- **Dropdowns**- http://getbootstrap.com/components/#dropdowns
 - **Form / Input / Select ** - xxx - Créer des éléments de formulaire - http://getbootstrap.com/css/#forms
 - **Grid** - Grille Responsive  - http://getbootstrap.com/css/#grid
 - **Icon(s)** - Icones Glyphicon - http://getbootstrap.com/components/#glyphicons
@@ -22,20 +23,22 @@
 - **Page Header** - Générer un titre et son sous-titrage harmonieux - http://getbootstrap.com/components/#page-header
 - **Pagination** - http://getbootstrap.com/components/#pagination
 - **Panels** - Un cadre basique pour mettre un message en valeur - http://getbootstrap.com/components/#panels
+- **Responsive embed**  - Rendre responsive le contenu d'une balise iframe / object / embed / video - http://getbootstrap.com/components/#responsive-embed
 - **Table** - Tableau HTML (responsive) - http://getbootstrap.com/css/#tables
+- **Tab (JS)**  - Système d'onglets - http://getbootstrap.com/javascript/#tabs
+- **Tooltips (JS)** - Une infobulle contextuelle - http://getbootstrap.com/javascript/#tooltips
 - **Wells** - Un cadre sombre basique pour mettre un élément en valeur - http://getbootstrap.com/components/#wells
 
 ####Todo :
-##### CSS
-- [ ] Dropdowns  - http://getbootstrap.com/components/#dropdowns - **A faire**
-- [ ] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **A faire**
+##### CSS  **Terminé**
+- [X] Dropdown - **Terminé**
+- [X] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **Terminé**
 
 ##### JS
 - [ ] Afix (JS)  - http://getbootstrap.com/javascript/#affix - **A faire**
 - [ ] Popover (JS)  - http://getbootstrap.com/javascript/#popover - **A faire**
 - [ ] ScrollSpy (JS) - http://getbootstrap.com/javascript/#scrollspy - **A faire**
-- [ ] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **A faire**
-- [ ] Tooltips (JS)  - http://getbootstrap.com/javascript/#tooltips - **A faire**
+- [X] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **Terminé**
 
 ### Foundation 5.5 (en cours)
 Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
