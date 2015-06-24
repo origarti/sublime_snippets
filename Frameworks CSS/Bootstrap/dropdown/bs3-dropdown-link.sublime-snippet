@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[${3:
+	<content><![CDATA[ ${3:
 ${1:<!--
 	# Dropdown - Menu déroulant contextuel
     # Documentation: ${2:http://getbootstrap.com/javascript/#dropdowns}

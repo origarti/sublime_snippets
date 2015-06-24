@@ -15,7 +15,8 @@
 - **Buttons / Buttons Dropdown / Buttons groups ** - Des boutons d'action dans tous leurs états - http://getbootstrap.com/components/#btn-groups
 - **Carousel** - Un diaporama - http://getbootstrap.com/javascript/#carousel
 - **Clearfix** - Régler des éventuels problèmes de Float / Clear - http://getbootstrap.com/css/#helper-classes-clearfix
-- **Collapse (JS) * - Déployer / Masquer du contenu - http://getbootstrap.com/javascript/#collapse
+- **Collapse (JS) ** - Déployer / Masquer du contenu - http://getbootstrap.com/javascript/#collapse
+- **Dropdowns**- http://getbootstrap.com/components/#dropdowns
 - **Form / Input / Select ** - xxx - Créer des éléments de formulaire - http://getbootstrap.com/css/#forms
 - **Grid** - Grille Responsive  - http://getbootstrap.com/css/#grid
 - **Icon(s)** - Icones Glyphicon - http://getbootstrap.com/components/#glyphicons
@@ -35,7 +36,7 @@
 
 ####Todo :
 ##### CSS
-- [ ] Dropdowns  - http://getbootstrap.com/components/#dropdowns - **A faire**
+- [X]  - **A faire**
 - [ ] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **A faire**
 
 ##### JS
@@ -43,7 +44,6 @@
 - [ ] Popover (JS)  - http://getbootstrap.com/javascript/#popover - **A faire**
 - [ ] ScrollSpy (JS) - http://getbootstrap.com/javascript/#scrollspy - **A faire**
 - [ ] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **A faire**
-- [X] Tooltips (JS)  -  - **A faire**
 
 ### Foundation 5.5 (en cours)
 Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
