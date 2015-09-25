@@ -64,20 +64,6 @@ ${1:<!--
 
 </div><!-- /[role=tabpanel] (conseillé) -->
 
-
-
-Fade effect
-
-To make tabs fade in, add .fade to each .tab-pane. The first tab pane must also have .in to properly fade in initial content.
-
-Copy
-<div class="tab-content">
-  <div role="tabpanel" class="tab-pane fade in active" id="home">...</div>
-  <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
-  <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
-  <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
-</div>
-
 ]]></content>
 <tabTrigger>bs3-tabs</tabTrigger>
 <description>Bootstrap 3 - Tabs (JS) / Onglet </description>
