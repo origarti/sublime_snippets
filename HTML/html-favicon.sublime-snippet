@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<link rel="icon" type="image/gif" href="${1:}favicon.gif" />
+	<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="${1:}favicon.ico" /><![endif]-->
+]]></content>
+	<description>HTML - favicon</description>
+	<tabTrigger>favicon</tabTrigger>
+</snippet>

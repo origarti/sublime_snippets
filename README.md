@@ -37,16 +37,26 @@
 - **Wells** - Un cadre sombre basique pour mettre un élément en valeur - http://getbootstrap.com/components/#wells
 
 ####Todo :
+<<<<<<< HEAD
+##### CSS
+- [X]  - **A faire**
+- [ ] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **A faire**
+=======
 ##### CSS  **Terminé**
 - [X] Dropdown - **Terminé**
 - [X] Responsive embed  - http://getbootstrap.com/components/#responsive-embed - **Terminé**
+>>>>>>> 2e84e0d918c16a242976bc23814bacf0bef3ed02
 
 ##### JS
 - [ ] Afix (JS)  - http://getbootstrap.com/javascript/#affix - **A faire**
 - [ ] Popover (JS)  - http://getbootstrap.com/javascript/#popover - **A faire**
 - [ ] ScrollSpy (JS) - http://getbootstrap.com/javascript/#scrollspy - **A faire**
+<<<<<<< HEAD
+- [ ] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **A faire**
+=======
 - [X] Tab (JS)  - http://getbootstrap.com/javascript/#tabs - **Terminé**
 
+>>>>>>> 2e84e0d918c16a242976bc23814bacf0bef3ed02
 
 ### Foundation 5.5 (en cours)
 Basé sur le travail de la Zurb Foundation : https://github.com/zurb/foundation-5-sublime-snippets.git
