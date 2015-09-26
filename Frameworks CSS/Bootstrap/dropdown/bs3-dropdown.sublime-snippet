@@ -11,13 +11,13 @@ ${1:<!--
       -  Ajouter un [data-toggle="dropdown"] à un lien ou un bouton pour déclencher l'élément déroulant.
       -  Sur mobile : .dropdown-backdrop est rajouté afin de pouvoir déclencher la fermeture de l'élément déroulant au "tap".
                       Cela signifie que basculer d'un élément déroulant à un autre requière un "tap" supplémentaire sur supports tactiles.
-
+  -->
 }}
 
 
 <div class="dropdown">
 
-  <button id="${4:dropdown_id}" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button id="${4:dropdown_id}" type="button" class="btn btn-${9:primary}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     ${5:Intitulé du bouton}
     <span class="caret"></span>
   </button><!-- /# ${4:dropdown_id} -->

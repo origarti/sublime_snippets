@@ -11,7 +11,7 @@ ${1:<!--
 	Cela signifie que basculer d'un élément déroulant à un autre requière un "tap" supplémentaire sur supports tactiles.
 	
 	- Pour conserver l'URL d'un lien, utiliser un [data-target] plutôt qu'un [href="#"] 
-
+-->
 }}
 
 div class="dropdown ${4:open}">
