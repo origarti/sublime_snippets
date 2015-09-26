@@ -14,7 +14,7 @@ ${1:<!--
 -->
 }}
 
-div class="dropdown ${4:open}">
+<div class="dropdown ${4:open}">
   <a href="${5:#}" data-toggle="dropdown" id="${6:dropdown_id}" data-target="${7:#}" aria-haspopup="true" role="button" aria-expanded="false">
     ${8:Intitulé du lien}
     <span class="caret"></span>
